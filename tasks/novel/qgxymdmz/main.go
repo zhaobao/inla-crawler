@@ -32,10 +32,23 @@ var taskDoneCount int32
 func setup() {
 	// 转换cover成jpg格式
 	_ = filepath.Walk(workerDir, func(path string, info os.FileInfo, err error) error {
-		if strings.HasSuffix(path, ".png") {
-			to := strings.ReplaceAll(path, ".png", ".jpg")
-			output, err := shell.Pipe("sh", "cover.sh", path, to)
-			fmt.Println(output, err, "sh", "convert.sh", path, to)
+		//if strings.HasSuffix(path, ".png") {
+		//	to := strings.ReplaceAll(path, ".png", ".jpg")
+		//	output, err := shell.Pipe("sh", "cover.sh", path, to)
+		//	fmt.Println(output, err, "sh", "convert.sh", path, to)
+		//}
+		if strings.HasSuffix(info.Name(), ".html") {
+			_ = os.Remove(path)
+		}
+		if !strings.HasPrefix(info.Name(), ".") && strings.HasSuffix(path, ".txt") {
+			buf, _ := ioutil.ReadFile(path)
+			content := string(buf)
+			content = strings.ReplaceAll(content, `“`, `"`)
+			content = strings.ReplaceAll(content, `”`, `"`)
+			content = strings.ReplaceAll(content, `‘`, `'`)
+			content = strings.ReplaceAll(content, `’`, `'`)
+			_ = ioutil.WriteFile(path, []byte(content), 0644)
+			fmt.Println("replace.content", path)
 		}
 		return nil
 	})
@@ -46,7 +59,7 @@ func main() {
 }
 
 func do() {
-	uploaderPool = downloader.New(16)
+	uploaderPool = downloader.New(64)
 	uploaderPool.Start()
 	done := make(chan bool)
 
@@ -110,7 +123,7 @@ func saveChapter(done chan bool, book model.NovelBook) {
 			log.Fatal("chapter.not.exists", err.Error())
 		}
 		chapterRemote := filepath.Join(item.BookId, fmt.Sprintf("%d_%s.txt", item.ChapterIndex, item.Token))
-		if i > 200 {
+		if i <= 200 {
 			atomic.AddInt32(&taskTotalCount, 1)
 			uploaderPool.PutTask(uploadTask(done, chapter, chapterRemote))
 			fmt.Println("+++", taskTotalCount, chapter, chapterRemote)

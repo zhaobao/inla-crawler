@@ -6,7 +6,7 @@ import (
 	"inla/inla-crawler/libs/database"
 	"inla/inla-crawler/libs/encode"
 	"inla/inla-crawler/libs/str"
-	"inla/inla-crawler/tasks/qgxymdmz/model"
+	"inla/inla-crawler/tasks/comic/qgxymdmz/model"
 	"strings"
 	"time"
 )

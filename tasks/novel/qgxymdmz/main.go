@@ -24,6 +24,22 @@ import (
 */
 
 const workerDir = "/Volumes/extend/crawler/novel/qgxymdmz"
+const wrapper = `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{title}}</title>
+</head>
+<body>
+<pre style="word-wrap: break-word; white-space: pre-wrap;">
+{{body}}
+</pre>
+</body>
+</html>
+`
 
 var uploaderPool *downloader.Client
 var taskTotalCount int32
@@ -37,9 +53,9 @@ func setup() {
 		//	output, err := shell.Pipe("sh", "cover.sh", path, to)
 		//	fmt.Println(output, err, "sh", "convert.sh", path, to)
 		//}
-		if strings.HasSuffix(info.Name(), ".html") {
-			_ = os.Remove(path)
-		}
+		//if strings.HasSuffix(info.Name(), ".html") {
+		//	_ = os.Remove(path)
+		//}
 		if !strings.HasPrefix(info.Name(), ".") && strings.HasSuffix(path, ".txt") {
 			buf, _ := ioutil.ReadFile(path)
 			content := string(buf)
@@ -47,7 +63,13 @@ func setup() {
 			content = strings.ReplaceAll(content, `”`, `"`)
 			content = strings.ReplaceAll(content, `‘`, `'`)
 			content = strings.ReplaceAll(content, `’`, `'`)
-			_ = ioutil.WriteFile(path, []byte(content), 0644)
+			content = strings.ReplaceAll(content, `—`, `-`)
+			content = strings.ReplaceAll(content, `…`, `...`)
+			//_ = ioutil.WriteFile(path, []byte(content), 0644)
+			html := wrapper
+			html = strings.ReplaceAll(html, "{{body}}", content)
+			html = strings.ReplaceAll(html, "{{title}}", "")
+			_ = ioutil.WriteFile(path+".html", []byte(html), 0644)
 			fmt.Println("replace.content", path)
 		}
 		return nil
@@ -55,6 +77,7 @@ func setup() {
 }
 
 func main() {
+	//setup()
 	do()
 }
 
@@ -101,13 +124,10 @@ func do() {
 
 func uploadTask(done chan bool, localFile, remoteFile string) func() {
 	return func() {
-		err, output := shell.Pipe("sh", "deploy.sh", localFile, remoteFile)
+		err, output := shell.Pipe("sh", "deploy.sh", localFile + ".html", remoteFile + ".html")
 		atomic.AddInt32(&taskDoneCount, 1)
 		fmt.Println(err, output)
 		fmt.Println("--- progress", taskTotalCount, taskDoneCount, "cost", float64(taskDoneCount)*0.005*6.99/1000, "CNY")
-		if taskDoneCount == taskTotalCount {
-			done <- true
-		}
 	}
 }
 

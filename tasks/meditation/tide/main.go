@@ -30,11 +30,61 @@ func main() {
 	//populateGroup()
 	//populateMusicGroup()
 	serve()
+	//resizeImage()
+	//updateMedTags()
+}
+
+func resizeImage() {
+	// 剪切成360的
+	_ = filepath.Walk(fmt.Sprintf("%s/output/med/cover", rootDir), func(path string, info os.FileInfo, err error) error {
+		if !strings.HasSuffix(path, ".jpg") {
+			return nil
+		}
+		if strings.HasSuffix(path, "_360x.jpg") {
+			return nil
+		}
+		_, _ = shell.Pipe("mv", path, fmt.Sprintf("%s/output/bak/med/cover", rootDir))
+		//err, output := shell.Pipe("convert", "-resize", "360x", path, path+"_360x.jpg")
+		//fmt.Println(err, output)
+		return nil
+	})
+	_ = filepath.Walk(fmt.Sprintf("%s/output/music/cover", rootDir), func(path string, info os.FileInfo, err error) error {
+		if !strings.HasSuffix(path, ".jpg") {
+			return nil
+		}
+		if strings.HasSuffix(path, "_360x.jpg") {
+			return nil
+		}
+		//err, output := shell.Pipe("convert", "-resize", "360x", path, path+"_360x.jpg")
+		//fmt.Println(err, output)
+		_, _ = shell.Pipe("mv", path, fmt.Sprintf("%s/output/bak/music/cover", rootDir))
+		return nil
+	})
 }
 
 func serve() {
 	http.Handle("/", http.FileServer(http.Dir(fmt.Sprintf("%s/output", rootDir))))
 	_ = http.ListenAndServe(":8809", nil)
+}
+
+func updateMedTags() {
+	// 解析文件拿到hash
+	buf, err := ioutil.ReadFile(fmt.Sprintf("%s/meditation.json", rootDir))
+	if err != nil {
+		log.Fatal(err)
+	}
+	var obj model.MeditationObj
+	err = json.Unmarshal(buf, &obj)
+	if err != nil {
+		log.Fatal(err)
+	}
+	for _, album := range obj.Albums {
+		var ids []string
+		for _, tag := range album.TagsV2 {
+			ids = append(ids, tag.Id)
+		}
+		dao.MedService.UpdateMedTagIds(album.Id, strings.Join(ids, ","))
+	}
 }
 
 func populateMusicGroup() {

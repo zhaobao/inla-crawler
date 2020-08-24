@@ -128,3 +128,12 @@ func (m *MedDao) UpdateMedGroup(id, group string) {
 	defer func() { _ = stmt.Close() }()
 	_, _ = stmt.Exec(group, id)
 }
+
+func (m *MedDao) UpdateMedTagIds(id, group string) {
+	stmt, err := database.GetInstance().Prepare("update tide_med set `tag_ids` = ? where med_id = ?")
+	if err != nil {
+		return
+	}
+	defer func() { _ = stmt.Close() }()
+	_, _ = stmt.Exec(group, id)
+}

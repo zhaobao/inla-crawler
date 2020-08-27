@@ -7,4 +7,5 @@ import (
 
 func TestCrcEncode(t *testing.T) {
 	fmt.Println(CrcEncode("qgxymdmz"))
+	fmt.Println(CrcEncode("cozy"))
 }

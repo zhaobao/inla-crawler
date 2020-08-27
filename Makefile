@@ -1,4 +1,4 @@
-.PHONY: run-comic run-novel run-med
+.PHONY: run-comic run-novel run-med run-cozy
 
 run-comic:
 	go run tasks/qgxymdmz/main.go
@@ -8,3 +8,6 @@ run-novel:
 
 run-med:
 	go run tasks/meditation/tide/main.go
+
+run-cozy:
+	go run tasks/music/cozy/main.go

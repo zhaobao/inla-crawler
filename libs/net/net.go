@@ -17,11 +17,11 @@ var defaultClient = &http.Client{
 }
 
 func FetchResponse(method, url string, body io.Reader, headers map[string]string, retry int) ([]byte, error) {
-	fmt.Println("HTTP.METHOD", method)
-	fmt.Println("HTTP.URL", url)
-	fmt.Println("HTTP.BODY", body)
-	fmt.Println("HTTP.HEADERS", headers)
-	fmt.Println("HTTP.RETRY", retry)
+	//fmt.Println("HTTP.METHOD", method)
+	fmt.Println("FETCH.HTTP.URL", url)
+	//fmt.Println("HTTP.BODY", body)
+	//fmt.Println("HTTP.HEADERS", headers)
+	//fmt.Println("HTTP.RETRY", retry)
 	req, err := http.NewRequest(method, url, body)
 	if err != nil {
 		return nil, errors.New("http.new.request " + err.Error())

@@ -36,3 +36,21 @@ func (d *daoImp) SaveOrUpdate(row model.Cozy) (int64, error) {
 	}
 	return ret.LastInsertId()
 }
+
+func (d *daoImp) UpdateColorByCover(cover, color string) {
+	stmt, err := database.GetInstance().Prepare(`update music_cozy set primary_color = ? where cover_link = ?`)
+	if err != nil {
+		return
+	}
+	defer func() { _ = stmt.Close() }()
+	_, _ = stmt.Exec(color, cover)
+}
+
+func (d *daoImp) UpdateDurationByRes(res string, duration float64) {
+	stmt, err := database.GetInstance().Prepare(`update music_cozy set duration = ? where res_link = ?`)
+	if err != nil {
+		return
+	}
+	defer func() { _ = stmt.Close() }()
+	_, _ = stmt.Exec(duration, res)
+}

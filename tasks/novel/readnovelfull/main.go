@@ -72,8 +72,8 @@ func main() {
 	//downloadBooks(client)
 
 	//select {}
-	//serve()
-	createPrimaryColor()
+	serve()
+	//createPrimaryColor()
 }
 
 func serve() {

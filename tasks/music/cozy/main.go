@@ -35,9 +35,9 @@ const rootDir = "tasks/music/cozy"
 
 func main() {
 	database.Connect(fmt.Sprintf("%s/db.sqlite", rootDir))
-	//serve()
+	serve()
 	//createPrimaryColor()
-	createDuration()
+	//createDuration()
 }
 
 func serve() {

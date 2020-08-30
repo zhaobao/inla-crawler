@@ -2,6 +2,7 @@ package str
 
 import (
 	"math/rand"
+	"strings"
 	"time"
 )
 
@@ -18,4 +19,14 @@ func RandStr(size int) string {
 		output[i] = sourceChar[rand.Intn(sourceSize)]
 	}
 	return string(output)
+}
+
+func CleanText(content string) string {
+	content = strings.ReplaceAll(content, `“`, `"`)
+	content = strings.ReplaceAll(content, `”`, `"`)
+	content = strings.ReplaceAll(content, `‘`, `'`)
+	content = strings.ReplaceAll(content, `’`, `'`)
+	content = strings.ReplaceAll(content, `—`, `-`)
+	content = strings.ReplaceAll(content, `…`, `...`)
+	return content
 }

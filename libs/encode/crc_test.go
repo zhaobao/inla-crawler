@@ -14,7 +14,8 @@ func TestCrcEncode(t *testing.T) {
 	//fmt.Println(CrcEncode("Life"))
 	//fmt.Println(CrcEncode("Natural"))
 	//fmt.Println(CrcEncode("Thunderstorm"))
-	fmt.Println(CrcEncode("inla_music_1"))
+	//fmt.Println(CrcEncode("inla_music_1"))
+	fmt.Println(CrcEncode("inla_novel_2"))
 
 	//141bba0a
 	//b165c431

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="se">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <script src="jszip.min.js"></script>
+    <script src="epub.min.js"></script>
+    <style>
+        body {
+            padding: 1em;
+            margin: 0;
+        }
+
+        .pagination {
+            text-align: right;
+        }
+
+        #next, #prev {
+            padding: 2em 0.5em;
+            font-size: 2em;
+            font-weight: bold;
+            text-decoration: none;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        #next {
+            right: 0;
+            background: linear-gradient(90deg, transparent, #00000008);
+        }
+
+        #prev {
+            left: 0;
+            background: linear-gradient(90deg, #00000008, transparent);
+        }
+    </style>
+
+</head>
+<body>
+<div class="pagination">
+    <select id="toc"></select>
+</div>
+<div id="viewer" class="spreads"></div>
+<a id="prev" href="#prev" class="arrow">‹</a>
+<a id="next" href="#next" class="arrow">›</a>
+
+<script>
+
+    const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0)
+    const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
+
+    // Load the opf
+    var book = ePub("book2.epub");
+    var rendition = book.renderTo("viewer", {
+        width: "100%",
+        height: vh - 52,
+    });
+
+    // 显示进度
+    rendition.display(1);
+
+    // 绑定点击事件
+    book.ready.then(function () {
+        var next = document.getElementById("next");
+        next.addEventListener("click", function (e) {
+            book.package.metadata.direction === "rtl" ? rendition.prev() : rendition.next();
+            e.preventDefault();
+        }, false);
+
+        var prev = document.getElementById("prev");
+        prev.addEventListener("click", function (e) {
+            book.package.metadata.direction === "rtl" ? rendition.next() : rendition.prev();
+            e.preventDefault();
+        }, false);
+
+        var keyListener = function (e) {
+            // Left Key
+            if ((e.keyCode || e.which) === 37) {
+                book.package.metadata.direction === "rtl" ? rendition.next() : rendition.prev();
+            }
+            // Right Key
+            if ((e.keyCode || e.which) === 39) {
+                book.package.metadata.direction === "rtl" ? rendition.prev() : rendition.next();
+            }
+        };
+        rendition.on("keyup", keyListener);
+        document.addEventListener("keyup", keyListener, false);
+    })
+
+    // 回显进度
+    rendition.on("rendered", function (section) {
+        console.log('rendered', 'book', section);
+        var current = book.navigation && book.navigation.get(section.href);
+        if (current) {
+            var $select = document.getElementById("toc");
+            var $selected = $select.querySelector("option[selected]");
+            if ($selected) {
+                $selected.removeAttribute("selected");
+            }
+            var $options = $select.querySelectorAll("option");
+            for (var i = 0; i < $options.length; ++i) {
+                let selected = $options[i].getAttribute("ref") === current.href;
+                if (selected) {
+                    $options[i].setAttribute("selected", "");
+                }
+            }
+        }
+    });
+
+    // 跳转
+    rendition.on("relocated", function (location) {
+        var next = book.package.metadata.direction === "rtl" ? document.getElementById("prev") : document.getElementById("next");
+        var prev = book.package.metadata.direction === "rtl" ? document.getElementById("next") : document.getElementById("prev");
+        if (location.atEnd) {
+            next.style.visibility = "hidden";
+        } else {
+            next.style.visibility = "visible";
+        }
+        if (location.atStart) {
+            prev.style.visibility = "hidden";
+        } else {
+            prev.style.visibility = "visible";
+        }
+    });
+
+    // layout
+    rendition.on("layout", function (layout) {
+        let viewer = document.getElementById("viewer");
+        if (layout.spread) {
+            viewer.classList.remove('single');
+        } else {
+            viewer.classList.add('single');
+        }
+    });
+
+    // unload
+    window.addEventListener("unload", function () {
+        this.book.destroy();
+    });
+
+    // 准备目录
+    book.loaded.navigation.then(function (toc) {
+        var $select = document.getElementById("toc"),
+            docfrag = document.createDocumentFragment();
+
+        toc.forEach(function (chapter) {
+            var option = document.createElement("option");
+            option.textContent = chapter.label;
+            option.setAttribute("ref", chapter.href);
+            docfrag.appendChild(option);
+        });
+
+        $select.appendChild(docfrag);
+        $select.onchange = function () {
+            var index = $select.selectedIndex,
+                url = $select.options[index].getAttribute("ref");
+            rendition.display(url);
+            return false;
+        };
+    });
+</script>
+
+</body>
+</html>

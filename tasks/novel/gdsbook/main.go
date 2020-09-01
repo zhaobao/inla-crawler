@@ -22,13 +22,49 @@ func main() {
 	database.Connect(fmt.Sprintf("%s/db.sqlite", rootDir))
 	serve()
 	//categoryData()
+	//renameCover()
 }
 
 const rootDir = "tasks/novel/gdsbook"
 
+//type epubHandler struct {
+//}
+//
+//func (e epubHandler) ServeHTTP(writer http.ResponseWriter, request *http.Request) {
+//	fmt.Println(".......")
+//	path := filepath.Join(rootDir, "output/data", request.URL.Path)
+//	buf, _ := ioutil.ReadFile(path)
+//	fmt.Println(path)
+//	writer.Header().Set("Access-Control-Allow-Origin", "*")
+//	writer.Header().Set("Access-Control-Allow-Methods", "POST,GET")
+//	writer.Header().Set("Access-Control-Allow-Headers", "Content-Type")
+//	_, _ = writer.Write(buf)
+//}
+
 func serve() {
-	http.Handle("/", http.FileServer(http.Dir(fmt.Sprintf("%s", rootDir))))
-	_ = http.ListenAndServe(":9999", nil)
+	http.HandleFunc("/", func(writer http.ResponseWriter, request *http.Request) {
+		fmt.Println(".......")
+		path := filepath.Join(rootDir, "output/data", request.URL.Path)
+		buf, _ := ioutil.ReadFile(path)
+		fmt.Println(path)
+		writer.Header().Set("Access-Control-Allow-Origin", "*")
+		writer.Header().Set("Access-Control-Allow-Methods", "POST,GET")
+		writer.Header().Set("Access-Control-Allow-Headers", "Content-Type")
+		_, _ = writer.Write(buf)
+	})
+	_ = http.ListenAndServe(":8809", nil)
+}
+
+func renameCover() {
+	_ = filepath.Walk(fmt.Sprintf("%s/output/data", rootDir), func(path string, info os.FileInfo, err error) error {
+		if info.IsDir() {
+			return nil
+		}
+		if info.Name() == "illustration.jpg" {
+			_ = os.Rename(path, filepath.Join(filepath.Dir(path), "cover.jpg"))
+		}
+		return nil
+	})
 }
 
 func categoryData() {

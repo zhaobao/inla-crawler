@@ -1,4 +1,4 @@
-.PHONY: run-comic run-novel run-med run-cozy run-anime run-readnovelfull run-gds
+.PHONY: run-comic run-novel run-med run-cozy run-anime run-readnovelfull run-gds run-wiz
 
 run-comic:
 	go run tasks/qgxymdmz/main.go
@@ -20,3 +20,6 @@ run-readnovelfull:
 
 run-gds:
 	go run tasks/novel/gdsbook/main.go
+
+run-wiz:
+	go run tasks/video/wizlimited/main.go

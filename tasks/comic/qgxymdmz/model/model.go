@@ -74,4 +74,6 @@ type ChapterItem struct {
 	LastChapter       bool        `json:"lastChapter"`
 	ShowIndex         interface{} `json:"showIndex"`
 	Token             string      `json:"token"`
+
+	Clean int `json:"clean"`
 }

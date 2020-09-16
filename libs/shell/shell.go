@@ -2,11 +2,13 @@ package shell
 
 import (
 	"io/ioutil"
+	"log"
 	"os/exec"
 )
 
 func Pipe(name string, args ...string) (error, string) {
 	cmd := exec.Command(name, args...)
+	log.Println(name, args)
 	stdout, err := cmd.StdoutPipe()
 	if err != nil {
 		return err, ""

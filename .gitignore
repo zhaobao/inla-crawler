@@ -6,3 +6,5 @@ tasks/music/cozy/output
 tasks/novel/readnovelfull/output
 tasks/video/wizlimited/output
 tasks/novel/gdsbook/output
+factory/watermark/comic/output
+factory/watermark/comic/input

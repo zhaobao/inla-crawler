@@ -1,4 +1,4 @@
-.PHONY: run-comic run-novel run-med run-cozy run-anime run-readnovelfull run-gds run-wiz
+.PHONY: run-comic run-novel run-med run-cozy run-anime run-readnovelfull run-gds run-wiz run-comic-water
 
 run-comic:
 	go run tasks/qgxymdmz/main.go
@@ -23,3 +23,6 @@ run-gds:
 
 run-wiz:
 	go run tasks/video/wizlimited/main.go
+
+run-comic-water:
+	go run factory/watermark/comic/main.go

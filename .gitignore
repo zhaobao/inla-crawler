@@ -4,6 +4,7 @@ tasks/meditation/tide/output
 tasks/meditation/tide/bak
 tasks/music/cozy/output
 tasks/novel/readnovelfull/output
+tasks/novel/readnovelfull/db.sqlite
 tasks/video/wizlimited/output
 tasks/novel/gdsbook/output
 factory/watermark/comic/output

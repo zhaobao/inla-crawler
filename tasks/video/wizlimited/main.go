@@ -9,6 +9,7 @@ import (
 	"inla/inla-crawler/libs/fs"
 	"inla/inla-crawler/libs/net"
 	"inla/inla-crawler/libs/number"
+	"inla/inla-crawler/libs/shell"
 	"inla/inla-crawler/libs/str"
 	"inla/inla-crawler/tasks/video/wizlimited/constant"
 	"inla/inla-crawler/tasks/video/wizlimited/dao"
@@ -33,6 +34,34 @@ func init() {
 	database.Connect(fmt.Sprintf("%s/db.sqlite", rootDir))
 }
 
+func main() {
+	//download()
+	serve()
+	//thumb()
+	//optimize()
+}
+
+func thumb() {
+	_ = filepath.Walk(outputRoot, func(path string, info os.FileInfo, err error) error {
+		if err != nil {
+			return err
+		}
+		if !strings.HasSuffix(path, ".mp4") {
+			return nil
+		}
+		if strings.HasPrefix(info.Name(), ".") {
+			return nil
+		}
+		thumbPath := path + ".jpg"
+		if !fs.FileExists(thumbPath) {
+			args := []string{"-i", path, "-ss", "00:00:01", "-vframes", "1", thumbPath}
+			_, _ = shell.Pipe("ffmpeg", args...)
+			log.Println("MISSING", path)
+		}
+		return nil
+	})
+}
+
 func serve() {
 	http.HandleFunc("/", func(writer http.ResponseWriter, request *http.Request) {
 		fmt.Println(".......")
@@ -47,11 +76,41 @@ func serve() {
 	_ = http.ListenAndServe(":8809", nil)
 }
 
+func optimize() {
+	start := 0
+	limit := 10000
+	querySql := `select res_id, type_id, group_id, raw_link from assets_video_4 order by id asc limit %d offset %d`
+	rows, err := database.GetInstance().Query(fmt.Sprintf(querySql, limit, start))
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	for rows.Next() {
+		var resId, typeId, groupId, rawLink string
+		err := rows.Scan(&resId, &typeId, &groupId, &rawLink)
+		if err != nil {
+			log.Fatal(err)
+		}
+		output1 := fmt.Sprintf("%s/%s/%s.mp4", outputRoot, groupId, resId)
+		if fs.FileExists(output1) {
+			output2 := fmt.Sprintf("%s/res/%s/%s.mp4", outputRoot, typeId, resId)
+			outputDir := filepath.Dir(output2)
+			if !fs.FileExists(outputDir) {
+				_ = os.MkdirAll(outputDir, 0777)
+			}
+			_, _ = shell.Pipe("mv", output1, output2)
+		} else {
+			log.Fatal(output1, "not.exists")
+		}
+	}
+	fmt.Println("DONE")
+}
+
 func download() {
 
-	start := 400
+	start := 0
 	limit := 10000
-	querySql := `select res_id, group_id, raw_link from assets_video_4 order by id asc limit %d offset %d`
+	querySql := `select res_id, type_id, group_id, raw_link from assets_video_4 order by id asc limit %d offset %d`
 	rows, err := database.GetInstance().Query(fmt.Sprintf(querySql, limit, start))
 	if err != nil {
 		log.Fatal(err)
@@ -64,8 +123,8 @@ func download() {
 	done := make(chan struct{})
 
 	for rows.Next() {
-		var resId, groupId, rawLink string
-		err := rows.Scan(&resId, &groupId, &rawLink)
+		var resId, typeId, groupId, rawLink string
+		err := rows.Scan(&resId, &typeId, &groupId, &rawLink)
 		if err != nil {
 			log.Fatal(err)
 		}
@@ -81,37 +140,31 @@ func download() {
 			log.Println("continue", output, diff)
 			continue
 		}
-		atomic.AddUint32(&total, 1)
 		pool.PutTask(func() {
+			atomic.AddUint32(&total, 1)
 			defer atomic.AddUint32(&finished, 1)
+			log.Println("PUT >>> ", rawLink)
 			data, err := net.FetchResponse(http.MethodGet, rawLink, nil, nil, 3)
 			if err != nil {
 				log.Println(err)
 				return
-
 			}
 			err = ioutil.WriteFile(output, data, 0644)
 			if err != nil {
 				log.Println(err)
 				return
 			}
-			log.Println("TOTAL", total, "FINISHED", finished)
+			log.Println("🍺 TOTAL:", total, "FINISHED:", finished, "REMAINING:", 5240-total-diff)
 			if (finished + diff) == total {
 				done <- struct{}{}
 			}
 		})
 	}
-
 	<-done
 	log.Println("DONE")
 }
 
-func main() {
-	download()
-	// serve()
-}
-
-func start() {
+func prepare() {
 	database.Connect(fmt.Sprintf("%s/db.sqlite", rootDir))
 	buf, err := ioutil.ReadFile(fmt.Sprintf("%s/output/subscribe_assets_video.json", rootDir))
 	if err != nil {

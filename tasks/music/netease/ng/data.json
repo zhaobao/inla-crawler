@@ -1,0 +1,409 @@
+[
+    {
+        "id": 561870280,
+        "name": "Nigeria: Tiv Music",
+        "duration": 257040,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/Nigeria: Tiv Music/Nigeria: Tiv Music.jpg",
+        "album": "African Rhythms & Instruments: Vol 1",
+        "artists": [
+            "Tiv Musicians"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Nigeria: Tiv Music/Nigeria: Tiv Music.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Nigeria: Tiv Music/Nigeria: Tiv Music.txt"
+    },
+    {
+        "id": 561870281,
+        "name": "Nigeria: Wurukaduwai",
+        "duration": 202760,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/Nigeria: Wurukaduwai/Nigeria: Wurukaduwai.jpg",
+        "album": "African Rhythms & Instruments: Vol 1",
+        "artists": [
+            "Nigerian Musicians"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Nigeria: Wurukaduwai/Nigeria: Wurukaduwai.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Nigeria: Wurukaduwai/Nigeria: Wurukaduwai.txt"
+    },
+    {
+        "id": 532194726,
+        "name": "Chinenye Nwa",
+        "duration": 408779,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/Chinenye Nwa/Chinenye Nwa.jpg",
+        "album": "Chinenye Nwa",
+        "artists": [
+            "Icheoku Obere Okwuo",
+            "The Igbo Traditional Music of Amaruru Ozuo Ome"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Chinenye Nwa/Chinenye Nwa.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Chinenye Nwa/Chinenye Nwa.txt"
+    },
+    {
+        "id": 532194727,
+        "name": "Umu Nigeria Na Umu Africa Anyi Ga Ebinudo",
+        "duration": 401221,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/Umu Nigeria Na Umu Africa Anyi Ga Ebinudo/Umu Nigeria Na Umu Africa Anyi Ga Ebinudo.jpg",
+        "album": "Chinenye Nwa",
+        "artists": [
+            "Icheoku Obere Okwuo",
+            "The Igbo Traditional Music of Amaruru Ozuo Ome"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Umu Nigeria Na Umu Africa Anyi Ga Ebinudo/Umu Nigeria Na Umu Africa Anyi Ga Ebinudo.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Umu Nigeria Na Umu Africa Anyi Ga Ebinudo/Umu Nigeria Na Umu Africa Anyi Ga Ebinudo.txt"
+    },
+    {
+        "id": 532194728,
+        "name": "Oya Aids",
+        "duration": 419704,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/Oya Aids/Oya Aids.jpg",
+        "album": "Chinenye Nwa",
+        "artists": [
+            "Icheoku Obere Okwuo",
+            "The Igbo Traditional Music of Amaruru Ozuo Ome"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Oya Aids/Oya Aids.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Oya Aids/Oya Aids.txt"
+    },
+    {
+        "id": 532194729,
+        "name": "Agbobia Ndi Nachoma",
+        "duration": 604256,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/Agbobia Ndi Nachoma/Agbobia Ndi Nachoma.jpg",
+        "album": "Chinenye Nwa",
+        "artists": [
+            "Icheoku Obere Okwuo",
+            "The Igbo Traditional Music of Amaruru Ozuo Ome"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Agbobia Ndi Nachoma/Agbobia Ndi Nachoma.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Agbobia Ndi Nachoma/Agbobia Ndi Nachoma.txt"
+    },
+    {
+        "id": 532194730,
+        "name": "Ajonadi Akponamiru",
+        "duration": 336112,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/Ajonadi Akponamiru/Ajonadi Akponamiru.jpg",
+        "album": "Chinenye Nwa",
+        "artists": [
+            "Icheoku Obere Okwuo",
+            "The Igbo Traditional Music of Amaruru Ozuo Ome"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Ajonadi Akponamiru/Ajonadi Akponamiru.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Ajonadi Akponamiru/Ajonadi Akponamiru.txt"
+    },
+    {
+        "id": 5286402,
+        "name": "\u96ea\u795e\u9882 \u3000",
+        "duration": 1002466,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/\u96ea\u795e\u9882 \u3000/\u96ea\u795e\u9882 \u3000.jpg",
+        "album": "\u56fd\u5916\u4ee3\u7406\u9986-\u4e16\u754c\u97f3\u4e50\u56fe\u4e66\u9986-\u8d56\u53ca\u5229\u4e9a\u6253\u51fb\u4e50",
+        "artists": [
+            "\u98ce\u6f6e\u5531\u7247"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/\u96ea\u795e\u9882 \u3000/\u96ea\u795e\u9882 \u3000.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/\u96ea\u795e\u9882 \u3000/\u96ea\u795e\u9882 \u3000.txt"
+    },
+    {
+        "id": 5286403,
+        "name": "\u739b\u975e(Mafe) \u3000",
+        "duration": 796293,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/\u739b\u975e(Mafe) \u3000/\u739b\u975e(Mafe) \u3000.jpg",
+        "album": "\u56fd\u5916\u4ee3\u7406\u9986-\u4e16\u754c\u97f3\u4e50\u56fe\u4e66\u9986-\u8d56\u53ca\u5229\u4e9a\u6253\u51fb\u4e50",
+        "artists": [
+            "\u98ce\u6f6e\u5531\u7247"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/\u739b\u975e(Mafe) \u3000/\u739b\u975e(Mafe) \u3000.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/\u739b\u975e(Mafe) \u3000/\u739b\u975e(Mafe) \u3000.txt"
+    },
+    {
+        "id": 5286404,
+        "name": "\u5965\u65af\u6c49(Oshun) \u3000",
+        "duration": 852106,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/\u5965\u65af\u6c49(Oshun) \u3000/\u5965\u65af\u6c49(Oshun) \u3000.jpg",
+        "album": "\u56fd\u5916\u4ee3\u7406\u9986-\u4e16\u754c\u97f3\u4e50\u56fe\u4e66\u9986-\u8d56\u53ca\u5229\u4e9a\u6253\u51fb\u4e50",
+        "artists": [
+            "\u98ce\u6f6e\u5531\u7247"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/\u5965\u65af\u6c49(Oshun) \u3000/\u5965\u65af\u6c49(Oshun) \u3000.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/\u5965\u65af\u6c49(Oshun) \u3000/\u5965\u65af\u6c49(Oshun) \u3000.txt"
+    },
+    {
+        "id": 5286405,
+        "name": "\u5965\u5df4\u5854\u62c9(Obatala) \u3000",
+        "duration": 311000,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/\u5965\u5df4\u5854\u62c9(Obatala) \u3000/\u5965\u5df4\u5854\u62c9(Obatala) \u3000.jpg",
+        "album": "\u56fd\u5916\u4ee3\u7406\u9986-\u4e16\u754c\u97f3\u4e50\u56fe\u4e66\u9986-\u8d56\u53ca\u5229\u4e9a\u6253\u51fb\u4e50",
+        "artists": [
+            "\u98ce\u6f6e\u5531\u7247"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/\u5965\u5df4\u5854\u62c9(Obatala) \u3000/\u5965\u5df4\u5854\u62c9(Obatala) \u3000.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/\u5965\u5df4\u5854\u62c9(Obatala) \u3000/\u5965\u5df4\u5854\u62c9(Obatala) \u3000.txt"
+    },
+    {
+        "id": 5286406,
+        "name": "\u5965\u7f57(Oro) \u3000",
+        "duration": 252373,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/\u5965\u7f57(Oro) \u3000/\u5965\u7f57(Oro) \u3000.jpg",
+        "album": "\u56fd\u5916\u4ee3\u7406\u9986-\u4e16\u754c\u97f3\u4e50\u56fe\u4e66\u9986-\u8d56\u53ca\u5229\u4e9a\u6253\u51fb\u4e50",
+        "artists": [
+            "\u98ce\u6f6e\u5531\u7247"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/\u5965\u7f57(Oro) \u3000/\u5965\u7f57(Oro) \u3000.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/\u5965\u7f57(Oro) \u3000/\u5965\u7f57(Oro) \u3000.txt"
+    },
+    {
+        "id": 5286407,
+        "name": "\u53ef\u9a6c\u6d1b\u5317(Komalobe)",
+        "duration": 946186,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/\u53ef\u9a6c\u6d1b\u5317(Komalobe)/\u53ef\u9a6c\u6d1b\u5317(Komalobe).jpg",
+        "album": "\u56fd\u5916\u4ee3\u7406\u9986-\u4e16\u754c\u97f3\u4e50\u56fe\u4e66\u9986-\u8d56\u53ca\u5229\u4e9a\u6253\u51fb\u4e50",
+        "artists": [
+            "\u98ce\u6f6e\u5531\u7247"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/\u53ef\u9a6c\u6d1b\u5317(Komalobe)/\u53ef\u9a6c\u6d1b\u5317(Komalobe).mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/\u53ef\u9a6c\u6d1b\u5317(Komalobe)/\u53ef\u9a6c\u6d1b\u5317(Komalobe).txt"
+    },
+    {
+        "id": 569342187,
+        "name": "Olisa Inoma",
+        "duration": 239040,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/Olisa Inoma/Olisa Inoma.jpg",
+        "album": "Nigerphone Igbo Traditional Music, Vol.9",
+        "artists": [
+            "Chief Akunwata Ozoemena Nsugbe & His Oliokata Singing Party"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Olisa Inoma/Olisa Inoma.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Olisa Inoma/Olisa Inoma.txt"
+    },
+    {
+        "id": 569341560,
+        "name": "Chiejina",
+        "duration": 541880,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/Chiejina/Chiejina.jpg",
+        "album": "Nigerphone Igbo Traditional Music, Vol.9",
+        "artists": [
+            "Chief Akunwata Ozoemena Nsugbe & His Oliokata Singing Party"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Chiejina/Chiejina.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Chiejina/Chiejina.txt"
+    },
+    {
+        "id": 569341561,
+        "name": "Igbo",
+        "duration": 1144986,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/Igbo/Igbo.jpg",
+        "album": "Nigerphone Igbo Traditional Music, Vol.9",
+        "artists": [
+            "Chief Akunwata Ozoemena Nsugbe & His Oliokata Singing Party"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Igbo/Igbo.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Igbo/Igbo.txt"
+    },
+    {
+        "id": 535424110,
+        "name": "Iwu Ndi Uka (Nkiruka)",
+        "duration": 500893,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/Iwu Ndi Uka (Nkiruka)/Iwu Ndi Uka (Nkiruka).jpg",
+        "album": "Nigerphone Igbo Traditional Music, Vol. 3",
+        "artists": [
+            "Ibealaoke Chukwukeziri & His Anaedeonu"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Iwu Ndi Uka (Nkiruka)/Iwu Ndi Uka (Nkiruka).mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Iwu Ndi Uka (Nkiruka)/Iwu Ndi Uka (Nkiruka).txt"
+    },
+    {
+        "id": 535424111,
+        "name": "Adim Right",
+        "duration": 552920,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/Adim Right/Adim Right.jpg",
+        "album": "Nigerphone Igbo Traditional Music, Vol. 3",
+        "artists": [
+            "Ibealaoke Chukwukeziri & His Anaedeonu"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Adim Right/Adim Right.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Adim Right/Adim Right.txt"
+    },
+    {
+        "id": 535422857,
+        "name": "Anyi Ga Elibe Mma",
+        "duration": 360013,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/Anyi Ga Elibe Mma/Anyi Ga Elibe Mma.jpg",
+        "album": "Nigerphone Igbo Traditional Music, Vol. 3",
+        "artists": [
+            "Ibealaoke Chukwukeziri & His Anaedeonu"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Anyi Ga Elibe Mma/Anyi Ga Elibe Mma.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Anyi Ga Elibe Mma/Anyi Ga Elibe Mma.txt"
+    },
+    {
+        "id": 551508153,
+        "name": "Anti Concord",
+        "duration": 498200,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/Anti Concord/Anti Concord.jpg",
+        "album": "Nigerphone Igbo Traditional Music, Vol. 4",
+        "artists": [
+            "Ibealaoke Chukwukeziri & His Anaedeonu"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Anti Concord/Anti Concord.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Anti Concord/Anti Concord.txt"
+    },
+    {
+        "id": 551501937,
+        "name": "Apama",
+        "duration": 500666,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/Apama/Apama.jpg",
+        "album": "Nigerphone Igbo Traditional Music, Vol. 4",
+        "artists": [
+            "Ibealaoke Chukwukeziri & His Anaedeonu"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Apama/Apama.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Apama/Apama.txt"
+    },
+    {
+        "id": 549031146,
+        "name": "Mgbe Mna Agba Egwu Medley",
+        "duration": 706866,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/Mgbe Mna Agba Egwu Medley/Mgbe Mna Agba Egwu Medley.jpg",
+        "album": "Nigerphone Igbo Traditional Music, Vol. 5",
+        "artists": [
+            "Princess Salomy Egede"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Mgbe Mna Agba Egwu Medley/Mgbe Mna Agba Egwu Medley.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Mgbe Mna Agba Egwu Medley/Mgbe Mna Agba Egwu Medley.txt"
+    },
+    {
+        "id": 549031147,
+        "name": "Onye Oma Medley",
+        "duration": 848013,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/Onye Oma Medley/Onye Oma Medley.jpg",
+        "album": "Nigerphone Igbo Traditional Music, Vol. 5",
+        "artists": [
+            "Princess Salomy Egede"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Onye Oma Medley/Onye Oma Medley.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Onye Oma Medley/Onye Oma Medley.txt"
+    },
+    {
+        "id": 565844494,
+        "name": "Olaliputu",
+        "duration": 878735,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/Olaliputu/Olaliputu.jpg",
+        "album": "Nigerphone Igbo Traditional Music, Vol. 6",
+        "artists": [
+            "Chief Akunwata Ozoemena Nsugbe"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Olaliputu/Olaliputu.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Olaliputu/Olaliputu.txt"
+    },
+    {
+        "id": 565845325,
+        "name": "Orofia (Igbo Part Two)",
+        "duration": 278825,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/Orofia (Igbo Part Two)/Orofia (Igbo Part Two).jpg",
+        "album": "Nigerphone Igbo Traditional Music, Vol. 6",
+        "artists": [
+            "Chief Akunwata Ozoemena Nsugbe"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Orofia (Igbo Part Two)/Orofia (Igbo Part Two).mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Orofia (Igbo Part Two)/Orofia (Igbo Part Two).txt"
+    },
+    {
+        "id": 558767508,
+        "name": "Uchicha Melu Ife Ebolu Oke",
+        "duration": 524826,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/Uchicha Melu Ife Ebolu Oke/Uchicha Melu Ife Ebolu Oke.jpg",
+        "album": "Nigerphone Igbo Traditional Music, Vol. 10",
+        "artists": [
+            "Goddy Na Achinkwa Musical Group"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Uchicha Melu Ife Ebolu Oke/Uchicha Melu Ife Ebolu Oke.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Uchicha Melu Ife Ebolu Oke/Uchicha Melu Ife Ebolu Oke.txt"
+    },
+    {
+        "id": 558767509,
+        "name": "Ezigbo Omume Amaka",
+        "duration": 427266,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/Ezigbo Omume Amaka/Ezigbo Omume Amaka.jpg",
+        "album": "Nigerphone Igbo Traditional Music, Vol. 10",
+        "artists": [
+            "Goddy Na Achinkwa Musical Group"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Ezigbo Omume Amaka/Ezigbo Omume Amaka.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Ezigbo Omume Amaka/Ezigbo Omume Amaka.txt"
+    },
+    {
+        "id": 562172117,
+        "name": "Enuwa Emero Ofuonye",
+        "duration": 847786,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/Enuwa Emero Ofuonye/Enuwa Emero Ofuonye.jpg",
+        "album": "Nigerphone Igbo Traditional Music, Vol. 11",
+        "artists": [
+            "Chief Nnoyelu 10 - 10",
+            "Ojemba Enweilo"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Enuwa Emero Ofuonye/Enuwa Emero Ofuonye.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Enuwa Emero Ofuonye/Enuwa Emero Ofuonye.txt"
+    },
+    {
+        "id": 562172118,
+        "name": "Ogalanya Amaka",
+        "duration": 378093,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/Ogalanya Amaka/Ogalanya Amaka.jpg",
+        "album": "Nigerphone Igbo Traditional Music, Vol. 11",
+        "artists": [
+            "Chief Nnoyelu 10 - 10",
+            "Ojemba Enweilo"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Ogalanya Amaka/Ogalanya Amaka.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Ogalanya Amaka/Ogalanya Amaka.txt"
+    },
+    {
+        "id": 562170685,
+        "name": "Egwu Sina Mili",
+        "duration": 595506,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/Egwu Sina Mili/Egwu Sina Mili.jpg",
+        "album": "Nigerphone Igbo Traditional Music, Vol. 11",
+        "artists": [
+            "Chief Nnoyelu 10 - 10",
+            "Ojemba Enweilo"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Egwu Sina Mili/Egwu Sina Mili.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Egwu Sina Mili/Egwu Sina Mili.txt"
+    },
+    {
+        "id": 541404849,
+        "name": "Oya Aids",
+        "duration": 419704,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/Oya Aids/Oya Aids.jpg",
+        "album": "Nigerphone Igbo Traditional Music, Vol. 13",
+        "artists": [
+            "Icheoku Obere Okwuo",
+            "The Igbo Traditional Music of Amaruru Ozuo Ome"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Oya Aids/Oya Aids.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Oya Aids/Oya Aids.txt"
+    },
+    {
+        "id": 541406522,
+        "name": "Agbobia Ndi Nachoma",
+        "duration": 604256,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/Agbobia Ndi Nachoma/Agbobia Ndi Nachoma.jpg",
+        "album": "Nigerphone Igbo Traditional Music, Vol. 13",
+        "artists": [
+            "The Igbo Traditional Music of Amaruru Ozuo Ome",
+            "Icheoku Obere Okwuo"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Agbobia Ndi Nachoma/Agbobia Ndi Nachoma.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Agbobia Ndi Nachoma/Agbobia Ndi Nachoma.txt"
+    },
+    {
+        "id": 541406523,
+        "name": "Chinenye Nwa",
+        "duration": 408779,
+        "illustration": "\u5c3c\u65e5\u5229\u4e9aNigeria/Chinenye Nwa/Chinenye Nwa.jpg",
+        "album": "Nigerphone Igbo Traditional Music, Vol. 13",
+        "artists": [
+            "Icheoku Obere Okwuo",
+            "The Igbo Traditional Music of Amaruru Ozuo Ome"
+        ],
+        "src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Chinenye Nwa/Chinenye Nwa.mp3",
+        "lyric_src": "\u5c3c\u65e5\u5229\u4e9aNigeria/Chinenye Nwa/Chinenye Nwa.txt"
+    }
+]

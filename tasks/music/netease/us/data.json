@@ -1,0 +1,1264 @@
+[
+    {
+        "id": 1471013297,
+        "name": "Dynamite",
+        "duration": 199053,
+        "illustration": "Billboard/Dynamite/Dynamite.jpg",
+        "album": "Dynamite",
+        "artists": [
+            "BTS (\u9632\u5f39\u5c11\u5e74\u56e2)"
+        ],
+        "src": "Billboard/Dynamite/Dynamite.mp3",
+        "lyric_src": "Billboard/Dynamite/Dynamite.txt"
+    },
+    {
+        "id": 1468972262,
+        "name": "WAP (feat. Megan Thee Stallion)",
+        "duration": 187585,
+        "illustration": "Billboard/WAP (feat. Megan Thee Stallion)/WAP (feat. Megan Thee Stallion).jpg",
+        "album": "WAP (feat. Megan Thee Stallion)",
+        "artists": [
+            "Cardi B",
+            "Megan thee Stallion"
+        ],
+        "src": "Billboard/WAP (feat. Megan Thee Stallion)/WAP (feat. Megan Thee Stallion).mp3",
+        "lyric_src": "Billboard/WAP (feat. Megan Thee Stallion)/WAP (feat. Megan Thee Stallion).txt"
+    },
+    {
+        "id": 1470964359,
+        "name": "Laugh Now Cry Later",
+        "duration": 261537,
+        "illustration": "Billboard/Laugh Now Cry Later/Laugh Now Cry Later.jpg",
+        "album": "Laugh Now Cry Later",
+        "artists": [
+            "Drake",
+            "Lil Durk"
+        ],
+        "src": "Billboard/Laugh Now Cry Later/Laugh Now Cry Later.mp3",
+        "lyric_src": "Billboard/Laugh Now Cry Later/Laugh Now Cry Later.txt"
+    },
+    {
+        "id": 1441183869,
+        "name": "ROCKSTAR",
+        "duration": 181760,
+        "illustration": "Billboard/ROCKSTAR/ROCKSTAR.jpg",
+        "album": "BLAME IT ON BABY",
+        "artists": [
+            "DaBaby",
+            "Roddy Ricch"
+        ],
+        "src": "Billboard/ROCKSTAR/ROCKSTAR.mp3",
+        "lyric_src": "Billboard/ROCKSTAR/ROCKSTAR.txt"
+    },
+    {
+        "id": 1406633327,
+        "name": "Blinding Lights",
+        "duration": 201613,
+        "illustration": "Billboard/Blinding Lights/Blinding Lights.jpg",
+        "album": "Blinding Lights",
+        "artists": [
+            "The Weeknd"
+        ],
+        "src": "Billboard/Blinding Lights/Blinding Lights.mp3",
+        "lyric_src": "Billboard/Blinding Lights/Blinding Lights.txt"
+    },
+    {
+        "id": 1457730993,
+        "name": "WHATS POPPIN (feat. DaBaby, Tory Lanez & Lil Wayne) [Remix]",
+        "duration": 227526,
+        "illustration": "Billboard/WHATS POPPIN (feat. DaBaby, Tory Lanez & Lil Wayne) [Remix]/WHATS POPPIN (feat. DaBaby, Tory Lanez & Lil Wayne) [Remix].jpg",
+        "album": "WHATS POPPIN (feat. DaBaby, Tory Lanez & Lil Wayne) [Remix]",
+        "artists": [
+            "Jack Harlow",
+            "DaBaby",
+            "Lil Wayne",
+            "Tory Lanez"
+        ],
+        "src": "Billboard/WHATS POPPIN (feat. DaBaby, Tory Lanez & Lil Wayne) [Remix]/WHATS POPPIN (feat. DaBaby, Tory Lanez & Lil Wayne) [Remix].mp3",
+        "lyric_src": "Billboard/WHATS POPPIN (feat. DaBaby, Tory Lanez & Lil Wayne) [Remix]/WHATS POPPIN (feat. DaBaby, Tory Lanez & Lil Wayne) [Remix].txt"
+    },
+    {
+        "id": 1404228064,
+        "name": "Watermelon Sugar",
+        "duration": 174053,
+        "illustration": "Billboard/Watermelon Sugar/Watermelon Sugar.jpg",
+        "album": "Fine Line",
+        "artists": [
+            "Harry Styles"
+        ],
+        "src": "Billboard/Watermelon Sugar/Watermelon Sugar.mp3",
+        "lyric_src": "Billboard/Watermelon Sugar/Watermelon Sugar.txt"
+    },
+    {
+        "id": 441116830,
+        "name": "Roses",
+        "duration": 173694,
+        "illustration": "Billboard/Roses/Roses.jpg",
+        "album": "Roses",
+        "artists": [
+            "SAINt JHN"
+        ],
+        "src": "Billboard/Roses/Roses.mp3",
+        "lyric_src": "Billboard/Roses/Roses.txt"
+    },
+    {
+        "id": 1454664682,
+        "name": "Savage Love (Laxed - Siren Beat)",
+        "duration": 171415,
+        "illustration": "Billboard/Savage Love (Laxed - Siren Beat)/Savage Love (Laxed - Siren Beat).jpg",
+        "album": "Savage Love (Laxed - Siren Beat)",
+        "artists": [
+            "Jawsh 685",
+            "Jason Derulo"
+        ],
+        "src": "Billboard/Savage Love (Laxed - Siren Beat)/Savage Love (Laxed - Siren Beat).mp3",
+        "lyric_src": "Billboard/Savage Love (Laxed - Siren Beat)/Savage Love (Laxed - Siren Beat).txt"
+    },
+    {
+        "id": 1404805139,
+        "name": "Before You Go",
+        "duration": 215144,
+        "illustration": "Billboard/Before You Go/Before You Go.jpg",
+        "album": "Before You Go",
+        "artists": [
+            "Lewis Capaldi"
+        ],
+        "src": "Billboard/Before You Go/Before You Go.mp3",
+        "lyric_src": "Billboard/Before You Go/Before You Go.txt"
+    },
+    {
+        "id": 1456130822,
+        "name": "I Hope",
+        "duration": 210808,
+        "illustration": "Billboard/I Hope/I Hope.jpg",
+        "album": "Goldmine",
+        "artists": [
+            "Gabby Barrett"
+        ],
+        "src": "Billboard/I Hope/I Hope.mp3",
+        "lyric_src": "Billboard/I Hope/I Hope.txt"
+    },
+    {
+        "id": 1464325108,
+        "name": "Mood",
+        "duration": 140591,
+        "illustration": "Billboard/Mood/Mood.jpg",
+        "album": "Mood",
+        "artists": [
+            "24kGoldn",
+            "iann dior"
+        ],
+        "src": "Billboard/Mood/Mood.mp3",
+        "lyric_src": "Billboard/Mood/Mood.txt"
+    },
+    {
+        "id": 1446020184,
+        "name": "Go Crazy",
+        "duration": 177005,
+        "illustration": "Billboard/Go Crazy/Go Crazy.jpg",
+        "album": "Slime & B",
+        "artists": [
+            "Chris Brown",
+            "Young Thug"
+        ],
+        "src": "Billboard/Go Crazy/Go Crazy.mp3",
+        "lyric_src": "Billboard/Go Crazy/Go Crazy.txt"
+    },
+    {
+        "id": 1433933825,
+        "name": "Break My Heart",
+        "duration": 221857,
+        "illustration": "Billboard/Break My Heart/Break My Heart.jpg",
+        "album": "Future Nostalgia",
+        "artists": [
+            "Dua Lipa"
+        ],
+        "src": "Billboard/Break My Heart/Break My Heart.mp3",
+        "lyric_src": "Billboard/Break My Heart/Break My Heart.txt"
+    },
+    {
+        "id": 1459889156,
+        "name": "For The Night",
+        "duration": 190511,
+        "illustration": "Billboard/For The Night/For The Night.jpg",
+        "album": "Shoot For The Stars Aim For The Moon",
+        "artists": [
+            "Pop Smoke",
+            "Lil Baby",
+            "DaBaby"
+        ],
+        "src": "Billboard/For The Night/For The Night.mp3",
+        "lyric_src": "Billboard/For The Night/For The Night.txt"
+    },
+    {
+        "id": 1387574419,
+        "name": "Circles",
+        "duration": 214935,
+        "illustration": "Billboard/Circles/Circles.jpg",
+        "album": "Circles",
+        "artists": [
+            "Post Malone"
+        ],
+        "src": "Billboard/Circles/Circles.mp3",
+        "lyric_src": "Billboard/Circles/Circles.txt"
+    },
+    {
+        "id": 1407951508,
+        "name": "Adore You",
+        "duration": 207177,
+        "illustration": "Billboard/Adore You/Adore You.jpg",
+        "album": "Fine Line",
+        "artists": [
+            "Harry Styles"
+        ],
+        "src": "Billboard/Adore You/Adore You.mp3",
+        "lyric_src": "Billboard/Adore You/Adore You.txt"
+    },
+    {
+        "id": 1459889162,
+        "name": "Mood Swings",
+        "duration": 213368,
+        "illustration": "Billboard/Mood Swings/Mood Swings.jpg",
+        "album": "Shoot For The Stars Aim For The Moon",
+        "artists": [
+            "Pop Smoke",
+            "Lil Tjay"
+        ],
+        "src": "Billboard/Mood Swings/Mood Swings.mp3",
+        "lyric_src": "Billboard/Mood Swings/Mood Swings.txt"
+    },
+    {
+        "id": 1461351123,
+        "name": "Come & Go",
+        "duration": 205531,
+        "illustration": "Billboard/Come & Go/Come & Go.jpg",
+        "album": "Legends Never Die",
+        "artists": [
+            "Juice WRLD",
+            "Marshmello"
+        ],
+        "src": "Billboard/Come & Go/Come & Go.mp3",
+        "lyric_src": "Billboard/Come & Go/Come & Go.txt"
+    },
+    {
+        "id": 1444591503,
+        "name": "Savage (feat. Beyonc\u00e9) [Remix]",
+        "duration": 242050,
+        "illustration": "Billboard/Savage (feat. Beyonc\u00e9) [Remix]/Savage (feat. Beyonc\u00e9) [Remix].jpg",
+        "album": "Savage (feat. Beyonc\u00e9) [Remix]",
+        "artists": [
+            "Megan thee Stallion",
+            "Beyonc\u00e9"
+        ],
+        "src": "Billboard/Savage (feat. Beyonc\u00e9) [Remix]/Savage (feat. Beyonc\u00e9) [Remix].mp3",
+        "lyric_src": "Billboard/Savage (feat. Beyonc\u00e9) [Remix]/Savage (feat. Beyonc\u00e9) [Remix].txt"
+    },
+    {
+        "id": 1463346950,
+        "name": "POPSTAR",
+        "duration": 200280,
+        "illustration": "Billboard/POPSTAR/POPSTAR.jpg",
+        "album": "POPSTAR",
+        "artists": [
+            "DJ Khaled",
+            "Drake"
+        ],
+        "src": "Billboard/POPSTAR/POPSTAR.mp3",
+        "lyric_src": "Billboard/POPSTAR/POPSTAR.txt"
+    },
+    {
+        "id": 1439306158,
+        "name": "Die From A Broken Heart",
+        "duration": 188368,
+        "illustration": "Billboard/Die From A Broken Heart/Die From A Broken Heart.jpg",
+        "album": "The Way It Feels",
+        "artists": [
+            "Maddie & Tae"
+        ],
+        "src": "Billboard/Die From A Broken Heart/Die From A Broken Heart.mp3",
+        "lyric_src": "Billboard/Die From A Broken Heart/Die From A Broken Heart.txt"
+    },
+    {
+        "id": 1459888393,
+        "name": "The Woo",
+        "duration": 201639,
+        "illustration": "Billboard/The Woo/The Woo.jpg",
+        "album": "Shoot For The Stars Aim For The Moon",
+        "artists": [
+            "Pop Smoke",
+            "50 Cent",
+            "Roddy Ricch"
+        ],
+        "src": "Billboard/The Woo/The Woo.mp3",
+        "lyric_src": "Billboard/The Woo/The Woo.txt"
+    },
+    {
+        "id": 1410815174,
+        "name": "death bed (coffee for your head)",
+        "duration": 173374,
+        "illustration": "Billboard/death bed (coffee for your head)/death bed (coffee for your head).jpg",
+        "album": "death bed (coffee for your head)",
+        "artists": [
+            "Powfu",
+            "beabadoobee"
+        ],
+        "src": "Billboard/death bed (coffee for your head)/death bed (coffee for your head).mp3",
+        "lyric_src": "Billboard/death bed (coffee for your head)/death bed (coffee for your head).txt"
+    },
+    {
+        "id": 1347439894,
+        "name": "The Bones",
+        "duration": 197355,
+        "illustration": "Billboard/The Bones/The Bones.jpg",
+        "album": "The Bones",
+        "artists": [
+            "Maren Morris"
+        ],
+        "src": "Billboard/The Bones/The Bones.mp3",
+        "lyric_src": "Billboard/The Bones/The Bones.txt"
+    },
+    {
+        "id": 1460103375,
+        "name": "Be Like That (feat. Swae Lee & Khalid)",
+        "duration": 191451,
+        "illustration": "Billboard/Be Like That (feat. Swae Lee & Khalid)/Be Like That (feat. Swae Lee & Khalid).jpg",
+        "album": "Be Like That (feat. Swae Lee & Khalid)",
+        "artists": [
+            "Kane Brown",
+            "Swae Lee",
+            "Khalid"
+        ],
+        "src": "Billboard/Be Like That (feat. Swae Lee & Khalid)/Be Like That (feat. Swae Lee & Khalid).mp3",
+        "lyric_src": "Billboard/Be Like That (feat. Swae Lee & Khalid)/Be Like That (feat. Swae Lee & Khalid).txt"
+    },
+    {
+        "id": 1433934517,
+        "name": "Don't Start Now",
+        "duration": 183327,
+        "illustration": "Billboard/Don't Start Now/Don't Start Now.jpg",
+        "album": "Future Nostalgia",
+        "artists": [
+            "Dua Lipa"
+        ],
+        "src": "Billboard/Don't Start Now/Don't Start Now.mp3",
+        "lyric_src": "Billboard/Don't Start Now/Don't Start Now.txt"
+    },
+    {
+        "id": 1434484128,
+        "name": "Rags2Riches (feat. ATR Son Son)",
+        "duration": 167183,
+        "illustration": "Billboard/Rags2Riches (feat. ATR Son Son)/Rags2Riches (feat. ATR Son Son).jpg",
+        "album": "Pray 4 Love",
+        "artists": [
+            "Rod Wave",
+            "ATR Son Son"
+        ],
+        "src": "Billboard/Rags2Riches (feat. ATR Son Son)/Rags2Riches (feat. ATR Son Son).mp3",
+        "lyric_src": "Billboard/Rags2Riches (feat. ATR Son Son)/Rags2Riches (feat. ATR Son Son).txt"
+    },
+    {
+        "id": 1470925656,
+        "name": "Blueberry Faygo",
+        "duration": 162586,
+        "illustration": "Billboard/Blueberry Faygo/Blueberry Faygo.jpg",
+        "album": "Certified Hitmaker (AVA Leak)",
+        "artists": [
+            "Lil Mosey"
+        ],
+        "src": "Billboard/Blueberry Faygo/Blueberry Faygo.mp3",
+        "lyric_src": "Billboard/Blueberry Faygo/Blueberry Faygo.txt"
+    },
+    {
+        "id": 1401523400,
+        "name": "Lovin' On You",
+        "duration": 194925,
+        "illustration": "Billboard/Lovin' On You/Lovin' On You.jpg",
+        "album": "What You See Is What You Get",
+        "artists": [
+            "Luke Combs"
+        ],
+        "src": "Billboard/Lovin' On You/Lovin' On You.mp3",
+        "lyric_src": "Billboard/Lovin' On You/Lovin' On You.txt"
+    },
+    {
+        "id": 1455493901,
+        "name": "Tap In",
+        "duration": 139441,
+        "illustration": "Billboard/Tap In/Tap In.jpg",
+        "album": "Tap In",
+        "artists": [
+            "Saweetie"
+        ],
+        "src": "Billboard/Tap In/Tap In.mp3",
+        "lyric_src": "Billboard/Tap In/Tap In.txt"
+    },
+    {
+        "id": 1461610283,
+        "name": "Wishing Well",
+        "duration": 194664,
+        "illustration": "Billboard/Wishing Well/Wishing Well.jpg",
+        "album": "Legends Never Die",
+        "artists": [
+            "Juice WRLD"
+        ],
+        "src": "Billboard/Wishing Well/Wishing Well.mp3",
+        "lyric_src": "Billboard/Wishing Well/Wishing Well.txt"
+    },
+    {
+        "id": 1410373540,
+        "name": "Got What I Got",
+        "duration": 178147,
+        "illustration": "Billboard/Got What I Got/Got What I Got.jpg",
+        "album": "9",
+        "artists": [
+            "Jason Aldean"
+        ],
+        "src": "Billboard/Got What I Got/Got What I Got.mp3",
+        "lyric_src": "Billboard/Got What I Got/Got What I Got.txt"
+    },
+    {
+        "id": 1397451865,
+        "name": "If The World Was Ending",
+        "duration": 208744,
+        "illustration": "Billboard/If The World Was Ending/If The World Was Ending.jpg",
+        "album": "If The World Was Ending",
+        "artists": [
+            "Jp Saxe",
+            "Julia Michaels"
+        ],
+        "src": "Billboard/If The World Was Ending/If The World Was Ending.mp3",
+        "lyric_src": "Billboard/If The World Was Ending/If The World Was Ending.txt"
+    },
+    {
+        "id": 1415767465,
+        "name": "Life Is Good",
+        "duration": 237792,
+        "illustration": "Billboard/Life Is Good/Life Is Good.jpg",
+        "album": "Life Is Good",
+        "artists": [
+            "Future",
+            "Drake"
+        ],
+        "src": "Billboard/Life Is Good/Life Is Good.mp3",
+        "lyric_src": "Billboard/Life Is Good/Life Is Good.txt"
+    },
+    {
+        "id": 1465114419,
+        "name": "cardigan",
+        "duration": 239560,
+        "illustration": "Billboard/cardigan/cardigan.jpg",
+        "album": "folklore (deluxe version)",
+        "artists": [
+            "Taylor Swift"
+        ],
+        "src": "Billboard/cardigan/cardigan.mp3",
+        "lyric_src": "Billboard/cardigan/cardigan.txt"
+    },
+    {
+        "id": 1468946603,
+        "name": "One Margarita",
+        "duration": 193462,
+        "illustration": "Billboard/One Margarita/One Margarita.jpg",
+        "album": "Born Here Live Here Die Here",
+        "artists": [
+            "Luke Bryan"
+        ],
+        "src": "Billboard/One Margarita/One Margarita.mp3",
+        "lyric_src": "Billboard/One Margarita/One Margarita.txt"
+    },
+    {
+        "id": 1465471162,
+        "name": "7 Summers",
+        "duration": 210122,
+        "illustration": "Billboard/7 Summers/7 Summers.jpg",
+        "album": "7 Summers",
+        "artists": [
+            "Morgan Wallen"
+        ],
+        "src": "Billboard/7 Summers/7 Summers.mp3",
+        "lyric_src": "Billboard/7 Summers/7 Summers.txt"
+    },
+    {
+        "id": 1441172859,
+        "name": "Cool Again",
+        "duration": 164728,
+        "illustration": "Billboard/Cool Again/Cool Again.jpg",
+        "album": "Cool Again",
+        "artists": [
+            "Kane Brown"
+        ],
+        "src": "Billboard/Cool Again/Cool Again.mp3",
+        "lyric_src": "Billboard/Cool Again/Cool Again.txt"
+    },
+    {
+        "id": 1434259591,
+        "name": "I Love My Country",
+        "duration": 184581,
+        "illustration": "Billboard/I Love My Country/I Love My Country.jpg",
+        "album": "I Love My Country",
+        "artists": [
+            "Florida Georgia Line"
+        ],
+        "src": "Billboard/I Love My Country/I Love My Country.mp3",
+        "lyric_src": "Billboard/I Love My Country/I Love My Country.txt"
+    },
+    {
+        "id": 1470010609,
+        "name": "Midnight Sky",
+        "duration": 223320,
+        "illustration": "Billboard/Midnight Sky/Midnight Sky.jpg",
+        "album": "Midnight Sky",
+        "artists": [
+            "Miley Cyrus"
+        ],
+        "src": "Billboard/Midnight Sky/Midnight Sky.mp3",
+        "lyric_src": "Billboard/Midnight Sky/Midnight Sky.txt"
+    },
+    {
+        "id": 1421443440,
+        "name": "Intentions",
+        "duration": 212866,
+        "illustration": "Billboard/Intentions/Intentions.jpg",
+        "album": "Changes",
+        "artists": [
+            "Justin Bieber",
+            "Quavo"
+        ],
+        "src": "Billboard/Intentions/Intentions.mp3",
+        "lyric_src": "Billboard/Intentions/Intentions.txt"
+    },
+    {
+        "id": 555731891,
+        "name": "Chasin' You",
+        "duration": 205505,
+        "illustration": "Billboard/Chasin' You/Chasin' You.jpg",
+        "album": "If I Know Me",
+        "artists": [
+            "Morgan Wallen"
+        ],
+        "src": "Billboard/Chasin' You/Chasin' You.mp3",
+        "lyric_src": "Billboard/Chasin' You/Chasin' You.txt"
+    },
+    {
+        "id": 1444961259,
+        "name": "We Paid",
+        "duration": 181968,
+        "illustration": "Billboard/We Paid/We Paid.jpg",
+        "album": "My Turn (Deluxe)",
+        "artists": [
+            "Lil Baby",
+            "42 Dugg"
+        ],
+        "src": "Billboard/We Paid/We Paid.mp3",
+        "lyric_src": "Billboard/We Paid/We Paid.txt"
+    },
+    {
+        "id": 1458240180,
+        "name": "Girls in the Hood",
+        "duration": 154357,
+        "illustration": "Billboard/Girls in the Hood/Girls in the Hood.jpg",
+        "album": "Girls in the Hood",
+        "artists": [
+            "Megan thee Stallion"
+        ],
+        "src": "Billboard/Girls in the Hood/Girls in the Hood.mp3",
+        "lyric_src": "Billboard/Girls in the Hood/Girls in the Hood.txt"
+    },
+    {
+        "id": 1444879514,
+        "name": "One Of Them Girls",
+        "duration": 188893,
+        "illustration": "Billboard/One Of Them Girls/One Of Them Girls.jpg",
+        "album": "One Of Them Girls",
+        "artists": [
+            "Lee Brice"
+        ],
+        "src": "Billboard/One Of Them Girls/One Of Them Girls.mp3",
+        "lyric_src": "Billboard/One Of Them Girls/One Of Them Girls.txt"
+    },
+    {
+        "id": 1444606082,
+        "name": "Say So",
+        "duration": 206262,
+        "illustration": "Billboard/Say So/Say So.jpg",
+        "album": "Say So",
+        "artists": [
+            "Doja Cat",
+            "Nicki Minaj"
+        ],
+        "src": "Billboard/Say So/Say So.mp3",
+        "lyric_src": "Billboard/Say So/Say So.txt"
+    },
+    {
+        "id": 1407895557,
+        "name": "The Box",
+        "duration": 196702,
+        "illustration": "Billboard/The Box/The Box.jpg",
+        "album": "Please Excuse Me For Being Antisocial",
+        "artists": [
+            "Roddy Ricch"
+        ],
+        "src": "Billboard/The Box/The Box.mp3",
+        "lyric_src": "Billboard/The Box/The Box.txt"
+    },
+    {
+        "id": 1465257670,
+        "name": "Nobody's Love",
+        "duration": 211304,
+        "illustration": "Billboard/Nobody's Love/Nobody's Love.jpg",
+        "album": "Nobody's Love",
+        "artists": [
+            "Maroon 5"
+        ],
+        "src": "Billboard/Nobody's Love/Nobody's Love.mp3",
+        "lyric_src": "Billboard/Nobody's Love/Nobody's Love.txt"
+    },
+    {
+        "id": 1432380932,
+        "name": "Heather",
+        "duration": 198086,
+        "illustration": "Billboard/Heather/Heather.jpg",
+        "album": "Kid Krow",
+        "artists": [
+            "Conan Gray"
+        ],
+        "src": "Billboard/Heather/Heather.mp3",
+        "lyric_src": "Billboard/Heather/Heather.txt"
+    },
+    {
+        "id": 1472790072,
+        "name": "Be A Light",
+        "duration": 174001,
+        "illustration": "Billboard/Be A Light/Be A Light.jpg",
+        "album": "Soundtrack To Summer 2020 (Deluxe Edition)",
+        "artists": [
+            "Thomas Rhett",
+            "Reba McEntire",
+            "Hillary Scott",
+            "Chris Tomlin",
+            "Keith Urban"
+        ],
+        "src": "Billboard/Be A Light/Be A Light.mp3",
+        "lyric_src": "Billboard/Be A Light/Be A Light.txt"
+    },
+    {
+        "id": 1468972695,
+        "name": "Smile",
+        "duration": 196231,
+        "illustration": "Billboard/Smile/Smile.jpg",
+        "album": "Smile",
+        "artists": [
+            "Juice WRLD",
+            "The Weeknd"
+        ],
+        "src": "Billboard/Smile/Smile.mp3",
+        "lyric_src": "Billboard/Smile/Smile.txt"
+    },
+    {
+        "id": 1442170830,
+        "name": "Party Girl",
+        "duration": 147853,
+        "illustration": "Billboard/Party Girl/Party Girl.jpg",
+        "album": "Party Girl",
+        "artists": [
+            "StaySolidRocky"
+        ],
+        "src": "Billboard/Party Girl/Party Girl.mp3",
+        "lyric_src": "Billboard/Party Girl/Party Girl.txt"
+    },
+    {
+        "id": 1454914391,
+        "name": "The Bigger Picture",
+        "duration": 252760,
+        "illustration": "Billboard/The Bigger Picture/The Bigger Picture.jpg",
+        "album": "The Bigger Picture",
+        "artists": [
+            "Lil Baby"
+        ],
+        "src": "Billboard/The Bigger Picture/The Bigger Picture.mp3",
+        "lyric_src": "Billboard/The Bigger Picture/The Bigger Picture.txt"
+    },
+    {
+        "id": 1449991947,
+        "name": "Rain On Me",
+        "duration": 182230,
+        "illustration": "Billboard/Rain On Me/Rain On Me.jpg",
+        "album": "Rain On Me",
+        "artists": [
+            "Lady Gaga",
+            "Ariana Grande"
+        ],
+        "src": "Billboard/Rain On Me/Rain On Me.mp3",
+        "lyric_src": "Billboard/Rain On Me/Rain On Me.txt"
+    },
+    {
+        "id": 1401302505,
+        "name": "Like That",
+        "duration": 163213,
+        "illustration": "Billboard/Like That/Like That.jpg",
+        "album": "Hot Pink",
+        "artists": [
+            "Doja Cat",
+            "Gucci Mane"
+        ],
+        "src": "Billboard/Like That/Like That.mp3",
+        "lyric_src": "Billboard/Like That/Like That.txt"
+    },
+    {
+        "id": 1467073899,
+        "name": "my future",
+        "duration": 208050,
+        "illustration": "Billboard/my future/my future.jpg",
+        "album": "my future",
+        "artists": [
+            "Billie Eilish"
+        ],
+        "src": "Billboard/my future/my future.mp3",
+        "lyric_src": "Billboard/my future/my future.txt"
+    },
+    {
+        "id": 1459170280,
+        "name": "Said Sum",
+        "duration": 155219,
+        "illustration": "Billboard/Said Sum/Said Sum.jpg",
+        "album": "Said Sum",
+        "artists": [
+            "Moneybagg Yo"
+        ],
+        "src": "Billboard/Said Sum/Said Sum.mp3",
+        "lyric_src": "Billboard/Said Sum/Said Sum.txt"
+    },
+    {
+        "id": 1466479378,
+        "name": "I Should Probably Go To Bed",
+        "duration": 171859,
+        "illustration": "Billboard/I Should Probably Go To Bed/I Should Probably Go To Bed.jpg",
+        "album": "I Should Probably Go To Bed",
+        "artists": [
+            "Dan + Shay"
+        ],
+        "src": "Billboard/I Should Probably Go To Bed/I Should Probably Go To Bed.mp3",
+        "lyric_src": "Billboard/I Should Probably Go To Bed/I Should Probably Go To Bed.txt"
+    },
+    {
+        "id": 1465211263,
+        "name": "Why We Drink",
+        "duration": 211461,
+        "illustration": "Billboard/Why We Drink/Why We Drink.jpg",
+        "album": "Late Nights And Longnecks (Big Machine Radio Release Special)",
+        "artists": [
+            "Justin Moore"
+        ],
+        "src": "Billboard/Why We Drink/Why We Drink.mp3",
+        "lyric_src": "Billboard/Why We Drink/Why We Drink.txt"
+    },
+    {
+        "id": 1472829935,
+        "name": "I Called Mama",
+        "duration": 212192,
+        "illustration": "Billboard/I Called Mama/I Called Mama.jpg",
+        "album": "Here On Earth",
+        "artists": [
+            "Tim McGraw"
+        ],
+        "src": "Billboard/I Called Mama/I Called Mama.mp3",
+        "lyric_src": "Billboard/I Called Mama/I Called Mama.txt"
+    },
+    {
+        "id": 1463346953,
+        "name": "GREECE",
+        "duration": 218958,
+        "illustration": "Billboard/GREECE/GREECE.jpg",
+        "album": "GREECE",
+        "artists": [
+            "DJ Khaled",
+            "Drake"
+        ],
+        "src": "Billboard/GREECE/GREECE.mp3",
+        "lyric_src": "Billboard/GREECE/GREECE.txt"
+    },
+    {
+        "id": 1470042890,
+        "name": "24",
+        "duration": 182857,
+        "illustration": "Billboard/24/24.jpg",
+        "album": "24 (feat. Lil Baby)",
+        "artists": [
+            "Money Man",
+            "Lil Baby"
+        ],
+        "src": "Billboard/24/24.mp3",
+        "lyric_src": "Billboard/24/24.txt"
+    },
+    {
+        "id": 1418877315,
+        "name": "Bang!",
+        "duration": 170919,
+        "illustration": "Billboard/Bang!/Bang!.jpg",
+        "album": "Bang!",
+        "artists": [
+            "AJR"
+        ],
+        "src": "Billboard/Bang!/Bang!.mp3",
+        "lyric_src": "Billboard/Bang!/Bang!.txt"
+    },
+    {
+        "id": 1470851863,
+        "name": "Kacey Talk",
+        "duration": 151170,
+        "illustration": "Billboard/Kacey Talk/Kacey Talk.jpg",
+        "album": "Kacey Talk",
+        "artists": [
+            "Youngboy Never Broke Again"
+        ],
+        "src": "Billboard/Kacey Talk/Kacey Talk.mp3",
+        "lyric_src": "Billboard/Kacey Talk/Kacey Talk.txt"
+    },
+    {
+        "id": 1474571333,
+        "name": "Lemonade",
+        "duration": 195474,
+        "illustration": "Billboard/Lemonade/Lemonade.jpg",
+        "album": "B4 The Storm",
+        "artists": [
+            "Internet Money",
+            "Gunna",
+            "Don Toliver",
+            "Nav"
+        ],
+        "src": "Billboard/Lemonade/Lemonade.mp3",
+        "lyric_src": "Billboard/Lemonade/Lemonade.txt"
+    },
+    {
+        "id": 1442020168,
+        "name": "More Than My Hometown",
+        "duration": 216607,
+        "illustration": "Billboard/More Than My Hometown/More Than My Hometown.jpg",
+        "album": "More Than My Hometown",
+        "artists": [
+            "Morgan Wallen"
+        ],
+        "src": "Billboard/More Than My Hometown/More Than My Hometown.mp3",
+        "lyric_src": "Billboard/More Than My Hometown/More Than My Hometown.txt"
+    },
+    {
+        "id": 1438415260,
+        "name": "God Whispered Your Name",
+        "duration": 232165,
+        "illustration": "Billboard/God Whispered Your Name/God Whispered Your Name.jpg",
+        "album": "God Whispered Your Name",
+        "artists": [
+            "Keith Urban"
+        ],
+        "src": "Billboard/God Whispered Your Name/God Whispered Your Name.mp3",
+        "lyric_src": "Billboard/God Whispered Your Name/God Whispered Your Name.txt"
+    },
+    {
+        "id": 1449991852,
+        "name": "Need It",
+        "duration": 195709,
+        "illustration": "Billboard/Need It/Need It.jpg",
+        "album": "Need It",
+        "artists": [
+            "Migos",
+            "Youngboy Never Broke Again"
+        ],
+        "src": "Billboard/Need It/Need It.mp3",
+        "lyric_src": "Billboard/Need It/Need It.txt"
+    },
+    {
+        "id": 1465208237,
+        "name": "UN DIA (ONE DAY)",
+        "duration": 232280,
+        "illustration": "Billboard/UN DIA (ONE DAY)/UN DIA (ONE DAY).jpg",
+        "album": "UN DIA (ONE DAY)",
+        "artists": [
+            "J. Balvin",
+            "Dua Lipa",
+            "Bad Bunny",
+            "Tainy"
+        ],
+        "src": "Billboard/UN DIA (ONE DAY)/UN DIA (ONE DAY).mp3",
+        "lyric_src": "Billboard/UN DIA (ONE DAY)/UN DIA (ONE DAY).txt"
+    },
+    {
+        "id": 1475282589,
+        "name": "Breaking Me",
+        "duration": 167523,
+        "illustration": "Billboard/Breaking Me/Breaking Me.jpg",
+        "album": "Workout Hits 2020 - Songs for your work out",
+        "artists": [
+            "Topic",
+            "A7S"
+        ],
+        "src": "Billboard/Breaking Me/Breaking Me.mp3",
+        "lyric_src": "Billboard/Breaking Me/Breaking Me.txt"
+    },
+    {
+        "id": 1391673624,
+        "name": "One Beer",
+        "duration": 173244,
+        "illustration": "Billboard/One Beer/One Beer.jpg",
+        "album": "HIXTAPE, Vol. 1",
+        "artists": [
+            "HARDY",
+            "Lauren Alaina",
+            "Devin Dawson"
+        ],
+        "src": "Billboard/One Beer/One Beer.mp3",
+        "lyric_src": "Billboard/One Beer/One Beer.txt"
+    },
+    {
+        "id": 1429588250,
+        "name": "Kings & Queens",
+        "duration": 162429,
+        "illustration": "Billboard/Kings & Queens/Kings & Queens.jpg",
+        "album": "Kings & Queens",
+        "artists": [
+            "Ava Max"
+        ],
+        "src": "Billboard/Kings & Queens/Kings & Queens.mp3",
+        "lyric_src": "Billboard/Kings & Queens/Kings & Queens.txt"
+    },
+    {
+        "id": 1473031478,
+        "name": "The Plan (From the Motion Picture \"TENET\")",
+        "duration": 185913,
+        "illustration": "Billboard/The Plan (From the Motion Picture \"TENET\")/The Plan (From the Motion Picture \"TENET\").jpg",
+        "album": "The Plan (From the Motion Picture \"TENET\")",
+        "artists": [
+            "Travis Scott"
+        ],
+        "src": "Billboard/The Plan (From the Motion Picture \"TENET\")/The Plan (From the Motion Picture \"TENET\").mp3",
+        "lyric_src": "Billboard/The Plan (From the Motion Picture \"TENET\")/The Plan (From the Motion Picture \"TENET\").txt"
+    },
+    {
+        "id": 1387549083,
+        "name": "Pretty Heart",
+        "duration": 244845,
+        "illustration": "Billboard/Pretty Heart/Pretty Heart.jpg",
+        "album": "Pretty Heart",
+        "artists": [
+            "Parker McCollum"
+        ],
+        "src": "Billboard/Pretty Heart/Pretty Heart.mp3",
+        "lyric_src": "Billboard/Pretty Heart/Pretty Heart.txt"
+    },
+    {
+        "id": 1388528467,
+        "name": "Done",
+        "duration": 220160,
+        "illustration": "Billboard/Done/Done.jpg",
+        "album": "Done",
+        "artists": [
+            "Chris Janson"
+        ],
+        "src": "Billboard/Done/Done.mp3",
+        "lyric_src": "Billboard/Done/Done.txt"
+    },
+    {
+        "id": 1464634411,
+        "name": "Happy Anywhere (feat. Gwen Stefani)",
+        "duration": 170213,
+        "illustration": "Billboard/Happy Anywhere (feat. Gwen Stefani)/Happy Anywhere (feat. Gwen Stefani).jpg",
+        "album": "Happy Anywhere",
+        "artists": [
+            "Blake Shelton",
+            "Gwen Stefani"
+        ],
+        "src": "Billboard/Happy Anywhere (feat. Gwen Stefani)/Happy Anywhere (feat. Gwen Stefani).mp3",
+        "lyric_src": "Billboard/Happy Anywhere (feat. Gwen Stefani)/Happy Anywhere (feat. Gwen Stefani).txt"
+    },
+    {
+        "id": 1364103255,
+        "name": "Some Girls",
+        "duration": 184946,
+        "illustration": "Billboard/Some Girls/Some Girls.jpg",
+        "album": "Jameson Rodgers",
+        "artists": [
+            "Jameson Rodgers"
+        ],
+        "src": "Billboard/Some Girls/Some Girls.mp3",
+        "lyric_src": "Billboard/Some Girls/Some Girls.txt"
+    },
+    {
+        "id": 1466468411,
+        "name": "Haw\u00e1i",
+        "duration": 200254,
+        "illustration": "Billboard/Haw\u00e1i/Haw\u00e1i.jpg",
+        "album": "Haw\u00e1i",
+        "artists": [
+            "Maluma"
+        ],
+        "src": "Billboard/Haw\u00e1i/Haw\u00e1i.mp3",
+        "lyric_src": "Billboard/Haw\u00e1i/Haw\u00e1i.txt"
+    },
+    {
+        "id": 1436398032,
+        "name": "One Night Standards",
+        "duration": 191007,
+        "illustration": "Billboard/One Night Standards/One Night Standards.jpg",
+        "album": "Never Will",
+        "artists": [
+            "Ashley McBryde"
+        ],
+        "src": "Billboard/One Night Standards/One Night Standards.mp3",
+        "lyric_src": "Billboard/One Night Standards/One Night Standards.txt"
+    },
+    {
+        "id": 1452972594,
+        "name": "Caramelo",
+        "duration": 217546,
+        "illustration": "Billboard/Caramelo/Caramelo.jpg",
+        "album": "Caramelo",
+        "artists": [
+            "Ozuna"
+        ],
+        "src": "Billboard/Caramelo/Caramelo.mp3",
+        "lyric_src": "Billboard/Caramelo/Caramelo.txt"
+    },
+    {
+        "id": 1407551473,
+        "name": "ily (i love you baby)",
+        "duration": 181071,
+        "illustration": "Billboard/ily (i love you baby)/ily (i love you baby).jpg",
+        "album": "ily (i love you baby)",
+        "artists": [
+            "Surf Mesa",
+            "Emilee"
+        ],
+        "src": "Billboard/ily (i love you baby)/ily (i love you baby).mp3",
+        "lyric_src": "Billboard/ily (i love you baby)/ily (i love you baby).txt"
+    },
+    {
+        "id": 1473044130,
+        "name": "Martin & Gina",
+        "duration": 137926,
+        "illustration": "Billboard/Martin & Gina/Martin & Gina.jpg",
+        "album": "THE GOAT",
+        "artists": [
+            "Polo G"
+        ],
+        "src": "Billboard/Martin & Gina/Martin & Gina.mp3",
+        "lyric_src": "Billboard/Martin & Gina/Martin & Gina.txt"
+    },
+    {
+        "id": 1449991556,
+        "name": "DOLLAZ ON MY HEAD (feat. Young Thug)",
+        "duration": 197799,
+        "illustration": "Billboard/DOLLAZ ON MY HEAD (feat. Young Thug)/DOLLAZ ON MY HEAD (feat. Young Thug).jpg",
+        "album": "WUNNA",
+        "artists": [
+            "Gunna",
+            "Young Thug"
+        ],
+        "src": "Billboard/DOLLAZ ON MY HEAD (feat. Young Thug)/DOLLAZ ON MY HEAD (feat. Young Thug).mp3",
+        "lyric_src": "Billboard/DOLLAZ ON MY HEAD (feat. Young Thug)/DOLLAZ ON MY HEAD (feat. Young Thug).txt"
+    },
+    {
+        "id": 1465111714,
+        "name": "the 1",
+        "duration": 210251,
+        "illustration": "Billboard/the 1/the 1.jpg",
+        "album": "folklore (deluxe version)",
+        "artists": [
+            "Taylor Swift"
+        ],
+        "src": "Billboard/the 1/the 1.mp3",
+        "lyric_src": "Billboard/the 1/the 1.txt"
+    },
+    {
+        "id": 1468946163,
+        "name": "my ex's best friend",
+        "duration": 138997,
+        "illustration": "Billboard/my ex's best friend/my ex's best friend.jpg",
+        "album": "my ex's best friend",
+        "artists": [
+            "Machine Gun Kelly",
+            "Blackbear"
+        ],
+        "src": "Billboard/my ex's best friend/my ex's best friend.mp3",
+        "lyric_src": "Billboard/my ex's best friend/my ex's best friend.txt"
+    },
+    {
+        "id": 1475775249,
+        "name": "Girl Of My Dreams",
+        "duration": 159817,
+        "illustration": "Billboard/Girl Of My Dreams/Girl Of My Dreams.jpg",
+        "album": "Pray 4 Love (Deluxe)",
+        "artists": [
+            "Rod Wave"
+        ],
+        "src": "Billboard/Girl Of My Dreams/Girl Of My Dreams.mp3",
+        "lyric_src": "Billboard/Girl Of My Dreams/Girl Of My Dreams.txt"
+    },
+    {
+        "id": 1430468620,
+        "name": "After Party",
+        "duration": 167967,
+        "illustration": "Billboard/After Party/After Party.jpg",
+        "album": "Heaven Or Hell",
+        "artists": [
+            "Don Toliver"
+        ],
+        "src": "Billboard/After Party/After Party.mp3",
+        "lyric_src": "Billboard/After Party/After Party.txt"
+    },
+    {
+        "id": 1446764662,
+        "name": "Stuck with U",
+        "duration": 228519,
+        "illustration": "Billboard/Stuck with U/Stuck with U.jpg",
+        "album": "Stuck with U",
+        "artists": [
+            "Ariana Grande",
+            "Justin Bieber"
+        ],
+        "src": "Billboard/Stuck with U/Stuck with U.mp3",
+        "lyric_src": "Billboard/Stuck with U/Stuck with U.txt"
+    },
+    {
+        "id": 1467377812,
+        "name": "All In",
+        "duration": 156708,
+        "illustration": "Billboard/All In/All In.jpg",
+        "album": "All In",
+        "artists": [
+            "Youngboy Never Broke Again"
+        ],
+        "src": "Billboard/All In/All In.mp3",
+        "lyric_src": "Billboard/All In/All In.txt"
+    },
+    {
+        "id": 1459888396,
+        "name": "Got It On Me",
+        "duration": 164623,
+        "illustration": "Billboard/Got It On Me/Got It On Me.jpg",
+        "album": "Shoot For The Stars Aim For The Moon",
+        "artists": [
+            "Pop Smoke"
+        ],
+        "src": "Billboard/Got It On Me/Got It On Me.mp3",
+        "lyric_src": "Billboard/Got It On Me/Got It On Me.txt"
+    },
+    {
+        "id": 1463082542,
+        "name": "3 Headed Goat",
+        "duration": 169560,
+        "illustration": "Billboard/3 Headed Goat/3 Headed Goat.jpg",
+        "album": "Just Cause Y'all Waited 2 (Deluxe)",
+        "artists": [
+            "Lil Durk",
+            "Lil Baby",
+            "Polo G"
+        ],
+        "src": "Billboard/3 Headed Goat/3 Headed Goat.mp3",
+        "lyric_src": "Billboard/3 Headed Goat/3 Headed Goat.txt"
+    },
+    {
+        "id": 1442724330,
+        "name": "La Jeepeta (Remix)",
+        "duration": 345240,
+        "illustration": "Billboard/La Jeepeta (Remix)/La Jeepeta (Remix).jpg",
+        "album": "La Jeepeta (Remix)",
+        "artists": [
+            "Brray",
+            "Juanka",
+            "Nio Garcia",
+            "Anuel AA",
+            "Myke Towers"
+        ],
+        "src": "Billboard/La Jeepeta (Remix)/La Jeepeta (Remix).mp3",
+        "lyric_src": "Billboard/La Jeepeta (Remix)/La Jeepeta (Remix).txt"
+    },
+    {
+        "id": 1370637650,
+        "name": "Lonely If You Are",
+        "duration": 175066,
+        "illustration": "Billboard/Lonely If You Are/Lonely If You Are.jpg",
+        "album": "Lonely If You Are",
+        "artists": [
+            "Chase Rice"
+        ],
+        "src": "Billboard/Lonely If You Are/Lonely If You Are.mp3",
+        "lyric_src": "Billboard/Lonely If You Are/Lonely If You Are.txt"
+    },
+    {
+        "id": 1440566141,
+        "name": "you broke me first",
+        "duration": 169325,
+        "illustration": "Billboard/you broke me first/you broke me first.jpg",
+        "album": "you broke me first",
+        "artists": [
+            "Tate McRae"
+        ],
+        "src": "Billboard/you broke me first/you broke me first.mp3",
+        "lyric_src": "Billboard/you broke me first/you broke me first.txt"
+    },
+    {
+        "id": 1472833877,
+        "name": "Spicy",
+        "duration": 166556,
+        "illustration": "Billboard/Spicy/Spicy.jpg",
+        "album": "King's Disease",
+        "artists": [
+            "Nas",
+            "Fivio Foreign",
+            "A$AP Ferg"
+        ],
+        "src": "Billboard/Spicy/Spicy.mp3",
+        "lyric_src": "Billboard/Spicy/Spicy.txt"
+    },
+    {
+        "id": 1461609749,
+        "name": "Hate The Other Side",
+        "duration": 160261,
+        "illustration": "Billboard/Hate The Other Side/Hate The Other Side.jpg",
+        "album": "Legends Never Die",
+        "artists": [
+            "Juice WRLD",
+            "Marshmello",
+            "Polo G",
+            "The Kid LAROI"
+        ],
+        "src": "Billboard/Hate The Other Side/Hate The Other Side.mp3",
+        "lyric_src": "Billboard/Hate The Other Side/Hate The Other Side.txt"
+    },
+    {
+        "id": 1465114465,
+        "name": "exile",
+        "duration": 285634,
+        "illustration": "Billboard/exile/exile.jpg",
+        "album": "folklore (deluxe version)",
+        "artists": [
+            "Taylor Swift",
+            "Bon Iver"
+        ],
+        "src": "Billboard/exile/exile.mp3",
+        "lyric_src": "Billboard/exile/exile.txt"
+    },
+    {
+        "id": 1339711202,
+        "name": "B*tch From Da Souf",
+        "duration": 144047,
+        "illustration": "Billboard/B*tch From Da Souf/B*tch From Da Souf.jpg",
+        "album": "B*tch From Da Souf",
+        "artists": [
+            "Mulatto"
+        ],
+        "src": "Billboard/B*tch From Da Souf/B*tch From Da Souf.mp3",
+        "lyric_src": "Billboard/B*tch From Da Souf/B*tch From Da Souf.txt"
+    },
+    {
+        "id": 1473044132,
+        "name": "21",
+        "duration": 163840,
+        "illustration": "Billboard/21/21.jpg",
+        "album": "THE GOAT",
+        "artists": [
+            "Polo G"
+        ],
+        "src": "Billboard/21/21.mp3",
+        "lyric_src": "Billboard/21/21.txt"
+    }
+]

@@ -64,7 +64,6 @@ func thumb() {
 
 func serve() {
 	http.HandleFunc("/", func(writer http.ResponseWriter, request *http.Request) {
-		fmt.Println(".......")
 		path := filepath.Join(outputRoot, request.URL.Path)
 		buf, _ := ioutil.ReadFile(path)
 		fmt.Println(path)

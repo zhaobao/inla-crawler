@@ -1,4 +1,7 @@
-.PHONY: run-comic run-novel run-med run-cozy run-anime run-readnovelfull run-gds run-wiz run-comic-water
+.PHONY: run-comic run-novel run-med run-cozy run-anime \
+	run-readnovelfull run-gds run-wiz run-comic-water \
+	run-netease-us run-translate \
+	run-netease-ng
 
 run-comic:
 	go run tasks/qgxymdmz/main.go
@@ -26,3 +29,12 @@ run-wiz:
 
 run-comic-water:
 	go run factory/watermark/comic/main.go
+
+run-netease-us:
+	go run tasks/music/netease/us/main.go
+
+run-netease-ng:
+	go run tasks/music/netease/ng/main.go
+
+run-translate:
+	go run tasks/translation/game/main.go

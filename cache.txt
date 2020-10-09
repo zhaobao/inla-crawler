@@ -1,0 +1,111 @@
+en::spiderman::የሸረሪት ሰው
+en::speedy boats::ፈጣን ጀልባዎች
+en::gravity change::የስበት ኃይል ለውጥ
+en::go get nuts::ፍሬዎችን ሂድ
+en::double runner::ድርብ ሯጭ
+en::dino run::ዲኖ ሩጫ
+en::control::መቆጣጠር
+en::car racing challenge::የመኪና ውድድር ውድድር
+en::carnival balloon shoot::ካርኒቫል ፊኛ መተኮስ
+zu::wothan the barbarian::ወሃን አረመኔውን
+en::touch n jump::ንካ ን መዝለል
+en::timber man 2::ጣውላ ሰው 2
+en::through it::በእሱ በኩል
+en::the office guy::የቢሮ ሰው
+en::super platformer engine::ልዕለ የመድረክ ሞተር
+en::stick soldier::ዱላ ወታደር
+en::square adventure::ካሬ ጀብዱ
+en::sky jumping::ሰማይ መዝለል
+en::running santa::እየሮጠ ሳንታ
+en::ninja wall runner::የኒንጃ ግድግዳ ሯጭ
+en::neon hockey::ኒዮን ሆኪ
+en::miner block::የማዕድን ማውጫ ማገጃ
+da::millionaire 2018 tv quiz admob::ሚሊየነር 2018 የቴሌቪዥን ጥያቄ አድሞብ
+en::maze::ማዝ
+en::magic dash::አስማት ሰረዝ
+en::knights diamond::ባላባቶች አልማዝ
+en::kill mosquito::ትንኝ ይገድሉ
+en::jump box hero::ዝላይ ሳጥን ጀግና
+en::hook hero::መንጠቆ ጀግና
+en::gold miner game share score::የወርቅ ማዕድን ማውጫ ጨዋታ ድርሻ ውጤት
+en::galactic war::የጋላክሲ ጦርነት
+en::galactic maze::ጋላክሲያዊ ማዝ
+en::fighting aircraft battle::የአውሮፕላን ውጊያ መዋጋት
+en::connect a way::አንድ መንገድ ያገናኙ
+en::circle flip::የክበብ ግልበጣ
+en::battleship war::የጦር መርከብ ጦርነት
+en::angry dragons::የተቆጡ ዘንዶዎች
+en::traffic::ትራፊክ
+en::speed rush::የፍጥነት ፍጥነት
+en::spear toss challenge::ጦር መወርወር ፈታኝ
+en::ping pong::የጠረጴዛ ቴኒስ
+en::new soccer::አዲስ እግር ኳስ
+en::freekick training::የፍሪኪክ ሥልጠና
+sv::mini golf::ሚኒ ጎልፍ
+en::football game capx::የእግር ኳስ ጨዋታ ካፒክስ
+en::flicking soccer::እግር ኳስ ማንሸራተት
+en::crazy free kick::እብድ ነፃ ምት
+en::chase racing cars::የእሽቅድምድም መኪናዎችን ያሳድዱ
+en::car speed booster::የመኪና ፍጥነት መጨመሪያ
+en::boat rush water racing::የጀልባ ፍጥነት የውሃ ውድድር
+en::baseball pro::ቤዝቦል ፕሮ
+en::arcade golf::የመጫወቻ ማዕከል ጎልፍ
+en::american football kicks::የአሜሪካ እግር ኳስ ምቶች
+en::100 metres race::100 ሜትር ውድድር
+en::zig zag switch::zig zag መቀየሪያ
+en::master chess::ዋና ቼዝ
+en::magic cup::አስማት ጽዋ
+en::geo jump::ጂኦ ዝላይ
+en::funny bunny::አስቂኝ ጥንቸል
+en::yummi fusion::የዩሚ ውህደት
+en::tetris cube::tetris cube
+en::jewels match::ጌጣጌጦች ይጣጣማሉ
+en::fruit candy match 3::የፍራፍሬ ከረሜላ ግጥሚያ 3
+en::ultimate boxing::የመጨረሻው ቦክስ
+en::swimming pro::የመዋኛ ፕሮ
+en::skeet challenge::የአጥንት ተግዳሮት
+en::real tennis::እውነተኛ ቴኒስ
+en::candy rush 2::ከረሜላ መጣደፍ 2
+en::ultimate swish sport::የመጨረሻው የስዊሽ ስፖርት
+en::Candy game::የከረሜላ ጨዋታ
+en::goalkeeper challenge::ግብ ጠባቂ
+en::Beach Adventure::የባህር ዳርቻ ጀብዱ
+en::Classic Bowling::ክላሲክ ቦውሊንግ
+en::cricket batter challenge::የክሪኬት ድብደባ ፈተና
+en::2048::2048 እ.ኤ.አ.
+en::Alien Invasion::የውጭ ዜጎች ወረራ
+en::Mr.Aha::Mr.Aha
+en::Funny soccer::አስቂኝ እግር ኳስ
+en::Rolling Football::የሚሽከረከር እግር ኳስ
+en::Timberman::ቲምበርማን
+en::Stick Hero::በትር ጀግና
+en::Mr.Space::Mr.Space
+en::Rope Puzzle::ገመድ እንቆቅልሽ
+en::Look Bear, Run!::ድብ ይመልከቱ ፣ ሩጡ!
+en::Flappy Bird::ቶ ብተ
+en::Line Of Defense::የመከላከያ መስመር
+en::Color Blocks::የቀለም ማገጃዎች
+en::Fly High::ከፍ ይበሉ
+en::WOOD::እንጨት
+en::Buddy Run::የቡዲ ሩጫ
+en::action::እርምጃ
+en::casual::ተራ
+en::racing::ውድድር
+en::adventure::ጀብዱ
+en::sports::ስፖርቶች
+en::puzzle::እንቆቅልሽ
+en::role::ሚና
+en::racing::ውድድር
+en::Loading...::በመጫን ላይ ...
+en::See Others::ሌሎችን ይመልከቱ
+en::hot::ሞቃት
+en::new::አዲስ
+en::More::ተጨማሪ
+en::★::★
+en::Phone::ስልክ
+en::Time::ጊዜ
+en::Info::መረጃ
+en::Top Games::ከፍተኛ ጨዋታዎች
+en::New Games::አዲስ ጨዋታዎች
+en::Explorer::አሳሽ
+en::Recommend for you::ለእርስዎ የሚመከር

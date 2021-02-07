@@ -124,7 +124,7 @@ func do() {
 
 func uploadTask(done chan bool, localFile, remoteFile string) func() {
 	return func() {
-		err, output := shell.Pipe("sh", "deploy.sh", localFile + ".html", remoteFile + ".html")
+		err, output := shell.Pipe("sh", "deploy.sh", localFile+".html", remoteFile+".html")
 		atomic.AddInt32(&taskDoneCount, 1)
 		fmt.Println(err, output)
 		fmt.Println("--- progress", taskTotalCount, taskDoneCount, "cost", float64(taskDoneCount)*0.005*6.99/1000, "CNY")

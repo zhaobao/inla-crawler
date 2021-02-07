@@ -11,5 +11,9 @@ factory/watermark/comic/output
 factory/watermark/comic/input
 tasks/music/netease/us/output
 tasks/music/netease/ng/output
+tasks/novel/spolishnovel/output
+tasks/novel/spolishnovel/db.sqlite
+tasks/music/netease/pl/output
+tasks/music/netease/pl/db.sqlite
 assets/Inla-translate-9e4214bd7993.json
 progress.txt

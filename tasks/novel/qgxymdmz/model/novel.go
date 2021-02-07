@@ -17,7 +17,7 @@ type NovelBook struct {
 }
 
 type NovelChapter struct {
-	Id int64 `json:"id"`
+	Id           int64  `json:"id"`
 	Token        string `json:"token"`
 	BookId       string `json:"book_id"`
 	ChapterIndex int    `json:"chapter_index"`

@@ -1,7 +1,9 @@
 .PHONY: run-comic run-novel run-med run-cozy run-anime \
 	run-readnovelfull run-gds run-wiz run-comic-water \
 	run-netease-us run-translate \
-	run-netease-ng
+	run-netease-ng \
+	run-spolishnovel \
+	run-music-163-pl
 
 run-comic:
 	go run tasks/qgxymdmz/main.go
@@ -38,3 +40,9 @@ run-netease-ng:
 
 run-translate:
 	go run tasks/translation/game/main.go
+
+run-spolishnovel:
+	go run tasks/novel/spolishnovel/main.go
+
+run-music-163-pl:
+	go run tasks/music/netease/pl/main.go

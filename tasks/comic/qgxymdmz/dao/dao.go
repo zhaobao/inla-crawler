@@ -18,7 +18,7 @@ type Service interface {
 	QueryChapters() ([]*model.ChapterItem, error)
 	UpdateChapter(id int64, keys []string, values []interface{}) error
 	QueryBooks() ([]*model.GenreItemData, error)
-	BuildBookChapter(comicId, chapterTitle string , chapterIndex int64) (int64, error)
+	BuildBookChapter(comicId, chapterTitle string, chapterIndex int64) (int64, error)
 }
 
 type dao struct {
